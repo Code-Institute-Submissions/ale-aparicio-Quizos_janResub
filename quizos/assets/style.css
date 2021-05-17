@@ -39,6 +39,34 @@
 #twitter {
     color: #00acee;
 }
+
+#twitter:hover {
+    color: white;
+}
+
+#facebook {
+    color: #3b5998;
+}
+
+#facebook:hover {
+    color: white;
+}
+
+#youtube {
+    color: #FF0000;
+}
+
+#youtube:hover {
+    color: white;
+}
+
+#instagram {
+    color: #8a3ab9;
+}
+
+#instagram:hover {
+    color: white;
+}
 /*---------------------------Special Paddings/Margins/Texts------*/
 
 .inline-block {
@@ -131,8 +159,4 @@ ul {
     font-weight: bold;
     font-size: 24px;
     text-shadow: 0px 4px 4px #000000;
-}
-
-.social-links:hover {
-    color: white;
 }
