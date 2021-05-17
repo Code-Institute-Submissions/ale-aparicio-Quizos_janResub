@@ -67,6 +67,15 @@
 #instagram:hover {
     color: white;
 }
+
+.nav-btn {
+    color: white;
+}
+
+.get-started-heading {
+    background-color: #282828;
+    color: white;
+}
 /*---------------------------Special Paddings/Margins/Texts------*/
 
 .inline-block {
@@ -81,6 +90,11 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+
+.box {
+    background-color: #087E8B;
+    padding: 10px;
 }
 /*---------------------------Heading------*/
 .navbar-nav {
@@ -105,7 +119,6 @@ ul {
     font-weight: bold;
     font-size: 24px;
     text-shadow: 0px 4px 4px #000000;
-    
 }
 
 .nav-link:hover {
@@ -160,3 +173,23 @@ ul {
     font-size: 24px;
     text-shadow: 0px 4px 4px #000000;
 }
+
+/*---------------------------Get Started Content------*/
+.get-started-heading {
+    font-family: "Signika Negative",sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-shadow: 0px 4px 4px #808080;
+}
+.nav-btn {
+    font-family: "Signika Negative",sans-serif;
+    font-weight: bold;
+    font-size: calc(1.500em + 1vw);
+    text-shadow: 0px 4px 4px #000000;
+    
+}
+
+.nav-btn:hover {
+    color: grey;
+}
+
