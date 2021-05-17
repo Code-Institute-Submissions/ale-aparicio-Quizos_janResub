@@ -26,17 +26,10 @@
 }
 
 /*---------------------------Heading------*/
-.navbar {
+.navbar-nav {
+    width: 100%;
     display: flex;
     justify-content: space-between;
-}
-
-.nav-item-left {
-    flex-direction: row;
-}
-
-.nav-item-right {
-    flex-direction: row-reverse;
 }
 
 .navbar-brand {
@@ -55,7 +48,6 @@
     font-weight: bold;
     font-size: 24px;
     text-shadow: 0px 4px 4px #000000;
-    position: relative;
     
 }
 
@@ -70,4 +62,5 @@
     border-radius: 5px;
     left: 1008px;
     top: 17px;
+    width: 100%;
 }
