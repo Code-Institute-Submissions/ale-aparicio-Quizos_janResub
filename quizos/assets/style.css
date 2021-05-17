@@ -26,6 +26,19 @@
 }
 
 /*---------------------------Heading------*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-item-left {
+    flex-direction: row;
+}
+
+.nav-item-right {
+    flex-direction: row-reverse;
+}
+
 .navbar-brand {
     font-family: "Carter One",sans-serif;
     font-weight: bold;
