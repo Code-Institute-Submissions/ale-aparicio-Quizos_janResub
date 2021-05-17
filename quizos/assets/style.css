@@ -68,6 +68,10 @@
     color: white;
 }
 
+.box {
+    background-color: #087E8B;
+}
+
 .nav-btn {
     background-color: #C73C3C;
     color: white;
@@ -75,6 +79,14 @@
 
 .get-started-heading {
     background-color: #282828;
+    color: white;
+}
+
+.box-2 {
+    background-color: #282828;
+}
+
+.tutorial-heading {
     color: white;
 }
 /*---------------------------Special Paddings/Margins/Texts------*/
@@ -93,9 +105,6 @@ ul {
     padding: 0;
 }
 
-.box {
-    background-color: #087E8B;
-}
 /*---------------------------Heading------*/
 .navbar-nav {
     width: 100%;
@@ -182,6 +191,7 @@ ul {
     font-family: "Signika Negative",sans-serif;
     font-weight: bold;
     font-size: 40px;
+    text-shadow: 0px 4px 4px #000000;
     text-align: center;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
     border-radius: 5px;
@@ -204,3 +214,15 @@ ul {
     background-color: #7C2222;
 }
 
+/*---------------------------Create Now Tutorial------*/
+.box-2 {
+    padding: 20px;
+}
+
+.tutorial-heading {
+    font-family: "Signika Negative",sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 0px 4px 4px #000000;
+}
