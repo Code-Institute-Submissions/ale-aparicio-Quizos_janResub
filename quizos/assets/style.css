@@ -129,7 +129,7 @@ ul {
     font-size: 20px;
     text-shadow: 0px 4px 4px #000000;
     margin-top: 10px;
-
+    margin-bottom: 10px;
 }
 
 .footer-link {
@@ -159,8 +159,4 @@ ul {
     font-weight: bold;
     font-size: 24px;
     text-shadow: 0px 4px 4px #000000;
-}
-
-#instagram {
-    margin-bottom: 10px;
 }
