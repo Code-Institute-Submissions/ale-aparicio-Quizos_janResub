@@ -1,0 +1,60 @@
+/*---------------------------Fonts------*/
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Signika+Negative:wght@300&display=swap');
+
+/*---------------------------Colors------*/
+.bg-color-navbar {
+    background-color: #0B3954;
+}
+
+.nav-link {
+    color: white;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.nav-search {
+    background-color: #E1EFFA;
+    color: #000000;
+}
+/*---------------------------Special Paddings/Margins/Texts------*/
+
+.inline-block {
+    display: inline-block;
+}
+
+/*---------------------------Heading------*/
+.navbar-brand {
+    font-family: "Carter One",sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    text-shadow: 0px 4px 4px #000000;
+}
+
+.navbar-brand:hover {
+    color: grey;
+}
+
+.nav-link {
+    font-family: "Signika Negative",sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    text-shadow: 0px 4px 4px #000000;
+    position: relative;
+    
+}
+
+.nav-link:hover {
+    color: grey;
+}
+
+.nav-search {
+    font-family: "Signika Negative",sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    left: 1008px;
+    top: 17px;
+}
