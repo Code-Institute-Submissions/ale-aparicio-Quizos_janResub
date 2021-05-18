@@ -100,8 +100,12 @@
     color: white;
 }
 
-.category-heading {
+.category-title {
     background-color: #282828;
+    color: white;
+}
+
+.sub-title{
     color: white;
 }
 /*---------------------------Special Paddings/Margins/Texts------*/
@@ -279,8 +283,8 @@ ul {
     color: grey;
 }
 
-/*---------------------------Create Now Tutorial------*/
-.category-heading {
+/*---------------------------Categories------*/
+.category-title {
     font-family: "Signika Negative",sans-serif;
     font-weight: bold;
     font-size: 40px;
@@ -290,3 +294,55 @@ ul {
     border-radius: 5px;
     padding: 15px;
 }
+
+.sub-title {
+    font-family: "Signika Negative",sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: 0px 4px 4px #000000;
+    padding: 15px;
+}
+
+/*---------------------------Slider------*/
+.slider-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .slider{
+    position: relative;
+    background: #C73C3C;
+    width: 1000px;
+    min-height: 250px;
+    margin: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+  .slider .slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .slider .slide img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+.navigation {
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.prev-btn, .next-btn {
+    z-index: 999;
+    font-size: 2em;
+}
+
