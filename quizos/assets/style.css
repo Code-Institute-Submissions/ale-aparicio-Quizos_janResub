@@ -99,6 +99,11 @@
     background-color: #5694AB;
     color: white;
 }
+
+.categories-header {
+    background-color: #282828;
+    color: white;
+}
 /*---------------------------Special Paddings/Margins/Texts------*/
 
 .inline-block {
@@ -272,4 +277,17 @@ ul {
 .create-now-btn:hover {
     background-color: #355B69;
     color: grey;
+}
+
+/*---------------------------Create Now Tutorial------*/
+
+.categories-header {
+    font-family: "Signika Negative",sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-shadow: 0px 4px 4px #000000;
+    text-align: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 15px;
 }
