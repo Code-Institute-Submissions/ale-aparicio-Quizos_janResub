@@ -100,7 +100,7 @@
     color: white;
 }
 
-.categories-header {
+.category-heading {
     background-color: #282828;
     color: white;
 }
@@ -280,8 +280,7 @@ ul {
 }
 
 /*---------------------------Create Now Tutorial------*/
-
-.categories-header {
+.category-heading {
     font-family: "Signika Negative",sans-serif;
     font-weight: bold;
     font-size: 40px;
