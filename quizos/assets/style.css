@@ -89,6 +89,16 @@
 .tutorial-heading {
     color: white;
 }
+
+.explanation {
+    background-color: #C73C3C;
+    color: white;
+}
+
+.create-now-btn {
+    background-color: #5694AB;
+    color: white;
+}
 /*---------------------------Special Paddings/Margins/Texts------*/
 
 .inline-block {
@@ -227,3 +237,39 @@ ul {
     text-shadow: 0px 4px 4px #000000;
 }
 
+.explanation {
+    font-family: "Signika Negative",sans-serif;
+    font-size: calc(0.5em + 1vw);
+    text-shadow: 0px 4px 4px #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+}
+
+.explanation h4 {
+    text-align: center;
+}
+
+.explanation-2 {
+    margin-left: 90px;
+}
+
+.create-now-btn {
+    font-family: "Signika Negative",sans-serif;
+    font-weight: bold;
+    font-size: calc(1em + 1vw);
+    text-shadow: 0px 4px 4px #000000;
+    text-align: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    padding: 7px;
+}
+
+.create-now-btn:hover {
+    background-color: #355B69;
+    color: grey;
+}
