@@ -108,6 +108,29 @@
 .sub-title{
     color: white;
 }
+
+.sub-category-title {
+    background-color: #282828;
+    color: white;
+}
+
+.description {
+    color: white;
+}
+
+.category-search {
+    background-color: #E1EFFA;
+    color: #000000;
+}
+
+.quiz-box {
+    background-color: #C73C3C;
+}
+
+.quiz-desc{
+    background-color: #282828;
+    color: white;
+}
 /*---------------------------Special Paddings/Margins/Texts------*/
 
 .inline-block {
@@ -122,6 +145,10 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+
+.vertical-align {
+    vertical-align: middle;
 }
 
 /*---------------------------Heading------*/
@@ -161,6 +188,9 @@ ul {
     left: 1008px;
     top: 17px;
     width: 252px;
+    padding-left: 20px;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
 /*---------------------------Footer------*/
@@ -483,4 +513,86 @@ ul {
     background: #C73C3C;
 }
 
+/*---------------------------Slider Entertainment------*/
+.sub-category-title {
+    font-family: "Signika Negative",sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-shadow: 0px 4px 4px #000000;
+    text-align: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 15px;
+}
 
+.description {
+    font-family: "Signika Negative",sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-shadow: 0px 4px 4px #000000;
+    padding: 15px;
+}
+
+.box-3 {
+    padding: 20px;
+}
+
+.category-search {
+    font-family: "Signika Negative",sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    left: 1008px;
+    top: 17px;
+    width: 70%;
+    padding-left: 20px;
+    align-items: right;
+    margin-left: 20%;
+    margin-right: 10%;
+    margin-top: 20px;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.category-create-btn {
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 15px;
+}
+
+.quiz-box {
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px; 
+    margin-bottom: 10px;
+}
+
+.quiz-box:hover {
+    background-color:#7C2222;
+}
+
+.quiz-img {
+    width: 90%;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.quiz-desc {
+    height: 70px;
+    font-family: "Signika Negative",sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    text-shadow: 0px 4px 4px #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.quiz-desc h3 {
+    text-align: center;
+    align-items: center;
+    
+}
