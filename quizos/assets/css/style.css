@@ -193,6 +193,10 @@ ul {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
+.nav-search:hover {
+    background-color: #8896a1;
+}
+
 /*---------------------------Footer------*/
 .footercols {
     font-family: "Signika Negative",sans-serif;
