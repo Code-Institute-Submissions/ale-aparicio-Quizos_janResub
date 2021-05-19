@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fontawesome-free-5.15.3-web/fontawesome-free-5.15.3-web/css/all.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Quizos</title>
+</head>
+<body>
+    <!---Heading-->
+    <nav class="navbar navbar-expand-lg bg-color-navbar header-block">
+        <a href="index.html" class="navbar-brand">Quizos</a>
+        <button class="navbar-toggler navbar-dark" data-toggle="collapse" data-target="#navbarMenu"> 
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    <!--Heading Content-->
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <div class="navbar-nav list-inline align-items-center">
+                <div class="nav-elements-right">
+                    <li class="nav-item list-inline-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item list-inline-item">
+                        <a href="categories.html" class="nav-link">Categories</a>
+                    </li>
+                </div>
+                <div class="nav-elements-right">
+                    <li class="nav-item list-inline-item d-none d-lg-inline-flex">
+                        <div>
+                            <input type="text" placeholder="Search..." class="nav-search">
+                        </div>
+                    </li>
+                    <li class="nav-item list-inline-item">
+                        <a href="#" class="nav-link">Log In</a>
+                    </li>
+                    <li class="nav-item list-inline-item">
+                        <a href="#" class="nav-link">Sign Up</a>
+                    </li> 
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!---Category Quizzes-->
+    <div class="box">
+        <div>
+            <h1 class="sub-category-title">Languages</h1>
+        </div>
+        <div class="box-3">
+            <div class="row">
+                <div class="col-md-6 col-sm description search-category align-items-center">
+                    <h3>
+                        Learn and practice all the different languages of the world!
+                    </h3>
+                </div>
+                <div class="col-md-6 d-none d-md-block">
+                    <input type="text" placeholder="Search for quizzes...." class="category-search">
+                </div>
+            </div>
+            <div>
+                <button href="#" type="button" class="create-now-btn category-create-btn col-sm">Create your own Quiz!</button>
+            </div> 
+
+            <div class="row">
+                <div class="quiz-box text-center col-md-5 ">
+                        <img src="assets/images/Bleach Characters.jpg" alt="Quiz Picture" class="quiz-img d-none d-md-inline-flex">
+                    <div class="w-100 d-none d-md-block"></div>
+                    <div class="quiz-desc text-center">
+                        <h3>Bleach Characters Quiz</h3>
+                    </div>
+                </div>
+                <div class="col-2"></div>
+                <div class="quiz-box text-center col-md-5">
+                        <img src="assets/images/Naruto Characters.jpg" alt="Quiz Picture" class="quiz-img d-none d-md-inline-flex">
+                    <div class="w-100 d-none d-md-block"></div>
+                    <div class="quiz-desc text-center">
+                        <h3>Naruto Characters Quiz</h3>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!---Footer-->
+    <footer class="container-fluid footercontainer bg-color-footer">
+        <div class="row footerrow">
+            <div class="col-sm footercols">
+                <a href="index.html" class="footer-brand">Quizos</a>
+            </div>
+            <div class="col-sm footercols inline-block">
+                <h4 class="general-sub">Explore</h4>
+                <ul class="inline-block explore">
+                    <li>
+                        <a href="index.html" class="footer-link">Home</a>
+                    </li>
+                    <li>
+                        <a href="categories.html" class="footer-link">Categories</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Create Now</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm footercols inline-block">
+                <h4 class="general-sub">Have an Account?</h4>
+                <ul class="inline-block account">
+                    <li>
+                        <a href="#" class="footer-link">Log In</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm footercols inline-block">
+                <h4 class="general-sub">Let us know what you think!</h4>
+                <ul class="inline-block social-media">
+                    <li>
+                        <a href="#" class="social-links" id="twitter" target="_blank"><i class="fab fa-twitter fa-lg" style="color: #00acee;"></i>&nbsp;Twitter</a>
+                    </li>
+                    <li> 
+                        <a href="#" class="social-links" id="facebook" target="_blank"><i class="fab fa-facebook-square fa-lg" style="color: #4b71c4;"></i>&nbsp;Facebook</a>
+                    </li>
+                    <div class="w-100 d-none d-md-block"></div> 
+                    <li>
+                        <a href="#" class="social-links" id="youtube" target="_blank"><i class="fab fa-youtube fa-lg" style="color: #FF0000;"></i>&nbsp;Youtube</a>
+                    </li>
+                    <li>
+                        <a href="#" class="social-links" id="instagram" target="_blank"><i class="fab fa-instagram fa-lg" style="color: #8a3ab9;"></i>&nbsp;Instagram</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script defer src="assets/fontawesome-free-5.15.3-web/fontawesome-free-5.15.3-web/js/all.js"></script>
+</body>
+</html>
