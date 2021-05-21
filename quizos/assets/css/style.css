@@ -141,6 +141,29 @@
     background-color: #C73C3C;
     color: white;
 }
+
+.navbar-brand-form {
+    color: white;
+}
+
+.form-heading {
+    background-color: #087E8B;
+    color: white;
+}
+
+.form-btn {
+    background-color: #C73C3C;
+    color: white;
+}
+
+
+.box-form {
+    background-color: #282828;
+}
+
+.bg-color-navbar-form {
+    background-color: #0B3954
+}
 /*---------------------------Special Paddings/Margins/Texts------*/
 
 .inline-block {
@@ -626,6 +649,10 @@ ul {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
+.create-input:hover {
+    background-color: #8896a1;
+}
+
 .add-thumbnail-img {
     max-width: 80%;
     max-height: 70%;
@@ -710,4 +737,81 @@ ul {
     display: none;
     cursor: pointer;
     
+}
+
+/*---------------Sign Up / Log In Form-----*/
+.popup-l {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    height: 300px;
+}
+
+.navbar-brand-form {
+    width: 90%;
+    font-family: "Carter One",sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 0px 4px 4px #000000;
+}
+
+.navbar-brand-form:hover {
+    color: grey;
+}
+
+.form-heading {
+    font-family: "Signika Negative",sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-shadow: 0px 4px 4px #000000;
+    text-align: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.form-btn {
+    font-family: "Signika Negative",sans-serif; 
+    font-weight: bold;
+    font-size: calc(1em + 1vw);
+    text-shadow: 0px 4px 4px #000000;
+    text-align: center;
+    vertical-align: middle;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    padding: 7px;
+    width: 30%;
+}
+
+.form-btn:hover {
+    color: grey;
+    background-color: #7C2222;
+}
+
+.box-form {
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.bg-color-navbar-form {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#exit-btn {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    margin: 0;
+    border-radius: 100%;
+}
+
+#exit-btn:hover {
+    background-color: grey;
 }
