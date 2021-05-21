@@ -69,10 +69,10 @@
             </div>
         </div>
         <!--Question Form-->
-        <div class="question-form" id="first-form">
+        <div class="question-form">   
             <div class="row">
                 <div class="col-lg-6">
-                    <div class="w-100 d-md-block sub-title" id="first-question">Question <span id="question-num">1</span>:</div>
+                    <div class="w-100 d-md-block sub-title" id="first-question">Question 1:</div>
                     <input type="text" placeholder="" class="create-input">
                 </div>
             </div>
@@ -100,7 +100,7 @@
         <div class="question-form">
             <div class="row">
                 <div class="col-lg-6">
-                    <div class="w-100 d-md-block sub-title">Question <span id="question-num">2</span>:</div>
+                    <div class="w-100 d-md-block sub-title">Question 2:</div>
                     <input type="text" placeholder="" class="create-input">
                 </div>
             </div>
@@ -128,7 +128,7 @@
         <div class="question-form">
             <div class="row">
                 <div class="col-lg-6">
-                    <div class="w-100 d-md-block sub-title">Question <span id="question-num">3</span>:</div>
+                    <div class="w-100 d-md-block sub-title">Question 3:</div>
                     <input type="text" placeholder="" class="create-input">
                 </div>
             </div>
@@ -156,7 +156,7 @@
         <div class="question-form">
             <div class="row">
                 <div class="col-lg-6">
-                    <div class="w-100 d-md-block sub-title">Question <span id="question-num">4</span>:</div>
+                    <div class="w-100 d-md-block sub-title">Question 4:</div>
                     <input type="text" placeholder="" class="create-input">
                 </div>
             </div>
@@ -181,10 +181,10 @@
                 </div>
             </div>
         </div>
-        <div class="question-form">
+        <div class="question-form" id="last-form">
             <div class="row">
                 <div class="col-lg-6">
-                    <div class="w-100 d-md-block sub-title">Question <span id="question-num">5</span>:</div>
+                    <div class="w-100 d-md-block sub-title">Question <span id="last-question">5</span>:</div>
                     <input type="text" placeholder="" class="create-input">
                 </div>
             </div>
@@ -212,8 +212,11 @@
         <div id="extra-question"></div>
         <div class="add-question">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-xs-5 col-md-6">
                     <button type="button" placeholder="Add Question!" class="add-question-btn" onclick="addForm()" >Add Question!</button>
+                </div>
+                <div class="col-xs-5 col-md-6">
+                    <button type="button" placeholder="remove-question-btn" class="remove-question-btn" onclick="removeForm()" >Remove Question</button>
                 </div>
             </div>
         </div>
