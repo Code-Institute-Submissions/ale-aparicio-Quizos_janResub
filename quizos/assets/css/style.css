@@ -131,6 +131,11 @@
     background-color: #282828;
     color: white;
 }
+
+.add-question-btn {
+    background-color: #C73C3C;
+    color: white;
+}
 /*---------------------------Special Paddings/Margins/Texts------*/
 
 .inline-block {
@@ -602,7 +607,7 @@ ul {
     
 }
 
-/*---------------------Quiz Category------------*/
+/*---------------------Create a Quiz------------*/
 .create-input {
     font-family: "Signika Negative",sans-serif;
     font-weight: bold;
@@ -616,13 +621,67 @@ ul {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
-.add-thumbnail {
-    width: 450px;
-    height: 350px;
+.add-thumbnail-img {
+    max-width: 80%;
+    max-height: 70%;
     border-radius: 5px;
     left: 1008px;
     top: 17px;
     border: none;
     overflow: hidden;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.question-form {
+    background-color: cadetblue;
+    margin-bottom: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    border: 5px solid #282828;
+    border-radius: 10px;
+}
+
+.title-form {
+    margin-bottom: 30px;
+}
+
+.add-question-btn{
+    font-family: "Signika Negative",sans-serif; 
+    font-weight: bold;
+    font-size: calc(1em + 1vw);
+    text-shadow: 0px 4px 4px #000000;
+    text-align: center;
+    vertical-align: middle;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    padding: 7px;
+}
+
+.add-question-btn:hover {
+    color: grey;
+    background-color: #7C2222;
+}
+
+/*---------------Upload Thumbnail Img-----*/
+.add-thumbnail {
+    overflow: hidden;
+}
+#file {
+    display: none;
+}
+
+#uploadBtn {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin: 0;
+    transform:translateX(-50%);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
 }
