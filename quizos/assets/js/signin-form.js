@@ -1,3 +1,7 @@
-function togglePopUp() {
-    document.getElementById("sign-up").classList.toggle('active')
+window.onload=function(){
+    
+    document.getElementById('sign-up').addEventListener('click', function(){
+        document.querySelector('.popup-s').style.display = 'flex';
+    });
+
 }

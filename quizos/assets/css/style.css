@@ -157,12 +157,14 @@
 }
 
 
-.box-form {
+.box-3 {
     background-color: #282828;
 }
 
 .bg-color-navbar-form {
-    background-color: #0B3954
+    background-color: #0B3954;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 }
 /*---------------------------Special Paddings/Margins/Texts------*/
 
@@ -182,6 +184,17 @@ ul {
 
 .vertical-align {
     vertical-align: middle;
+}
+
+.col{
+    position: inherit;
+}
+
+.col-lg-4 {
+    position: inherit;
+}
+.col-md-4 {
+    position: inherit;
 }
 
 /*---------------------------Heading------*/
@@ -283,6 +296,7 @@ ul {
     border-radius: 5px;
     padding: 15px;
 }
+
 .nav-btn {
     font-family: "Signika Negative",sans-serif;
     font-weight: bold;
@@ -740,22 +754,24 @@ ul {
 }
 
 /*---------------Sign Up / Log In Form-----*/
-.popup-l {
+.popup-s {
     position: absolute;
     top: 50%;
     left: 50%;
+    justify-content: center;
     transform: translate(-50%, -50%);
-    width: 60%;
-    height: 300px;
+    width: 95%;
+    display: none;
 }
 
 .navbar-brand-form {
-    width: 90%;
+    width: 85%;
     font-family: "Carter One",sans-serif;
     font-weight: bold;
     font-size: 60px;
     text-align: center;
     text-shadow: 0px 4px 4px #000000;
+    border-radius: 10px;
 }
 
 .navbar-brand-form:hover {
@@ -771,6 +787,7 @@ ul {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
     border-radius: 5px;
     padding: 15px;
+    margin-top: 10px;
 }
 
 .form-btn {
@@ -794,16 +811,10 @@ ul {
     background-color: #7C2222;
 }
 
-.box-form {
+.box-3 {
     padding: 20px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-radius: 10px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
-}
-
-.bg-color-navbar-form {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
 }
 
 #exit-btn {
@@ -815,3 +826,4 @@ ul {
 #exit-btn:hover {
     background-color: grey;
 }
+

@@ -36,71 +36,75 @@
                         </div>
                     </li>
                     <li class="nav-item list-inline-item">
-                        <a href="login.html" class="nav-link">Log In</a>
+                        <a href="login.html" class="nav-link" id="log-in" onclick="" >Log In</a>
                     </li>
-                    <li class="nav-item list-inline-item popup-s" id="popup-2">
-                        <a href="signup.html" class="nav-link" id="sign-up" onclick="togglePopUp()">Sign Up</a>
+                    <li class="nav-item list-inline-item" id="popup-2">
+                        <a href="#" class="nav-link" id="sign-up" onclick="">Sign Up</a>
                     </li> 
                 </div>
             </div>
         </div>
     </nav>
-    <div class="box">
-        <!---Pop Up!-->
-        <!---Pop Up Tutorial(https://www.youtube.com/watch?v=ptI8g-05VM0&ab_channel=UMTutorialUMTutorial)-->
-        <div class="popup-l">
-            <nav class="navbar bg-color-navbar-form">
+    <!---Pop Up!-->
+    <!---Pop Up Tutorial(https://www.youtube.com/watch?v=ptI8g-05VM0&ab_channel=UMTutorialUMTutorial)-->
+    <div class="popup-s">
+        <div class="box-3">
+            <div class="navbar bg-color-navbar-form">
                 <a href="index.html" class="navbar-brand-form">Quizos</a>
                 <a href="#" id="exit-btn"><i class="fas fa-times-circle fa-2x" style="color: white;"></i></a>
-            </nav>
-            <div class="box-form">
-                <div>
-                    <h1 class="form-heading">Sign Up!</h1>
-                </div>
-                <div class="w-100 d-md-block sub-title">Email:</div>
-                <input type="text" placeholder="email@email.com" class="create-input">
-                <div class="w-100 d-md-block sub-title">Password:</div>
-                <input type="password" placeholder="********" class="create-input">
-                <button type="pass" placeholder="Sign Up!" class="form-btn">Log In!</button>
             </div>
+            <div>
+                <h1 class="form-heading">Sign Up!</h1>
+            </div>
+            <div class="sub-title">Email:</div>
+            <input type="text" placeholder="email@email.com" class="create-input">
+            <div class="sub-title">Username:</div>
+            <input type="text" placeholder="user123" class="create-input">
+            <div class="sub-title">Password:</div>
+            <input type="password" placeholder="********" class="create-input">
+            <button type="pass" placeholder="Sign Up!" class="form-btn">Log In!</button>
         </div>
+    </div>
+    <div class="box">
         <!---Get Started-->
         <div>
             <h1 class="get-started-heading">Get Started!</h1>
         </div>
-        <ul class="row container- fluid  d-md-flex get-started">
-            <li class="get-started-item col col-md-4 d-inline-flex">
-                <a href="sciencecategory.html" class="nav-btn btn btn-sec btn-block get-started-btn new-btn"><span>Science</span></a>
-            </li>
-            <li class="get-started-item col col-md-4 d-inline-flex">
-                <a href="mathcategory.html" class="nav-btn btn btn-sec btn-block get-started-btn new-btn"><span>Math</span></a>
-            </li>
-            <li class="get-started-item col col-md-4 d-inline-flex">
-                <a href="historycategory.html" class="nav-btn btn btn-sec btn-block get-started-btn new-btn"><span>History</span></a>
-            </li>
-            
-            <div class="w-100 d-none d-md-block"></div>
-            <li class="get-started-item col col-md-4 d-inline-flex">
-                <a href="tvshowscategory.html" class="nav-btn btn btn-sec btn-block get-started-btn new-btn"><span>TV Shows</span></a>
-            </li>
-            <li class="get-started-item col col-md-4 d-inline-flex">
-                <a href="moviescategory.html" class="nav-btn btn btn-sec btn-block get-started-btn new-btn"><span>Movies</span></a>
-            </li>
-            <li class="get-started-item col col-md-4 d-inline-flex">
-                <a href="animecategory.html" class="nav-btn btn btn-sec btn-block get-started-btn new-btn"><span>Anime</span></a>
-            </li>
+        <div>
+            <ul class="row container- fluid  d-md-flex get-started">
+                <li class="get-started-item col col-md-4 d-inline-flex">
+                    <a href="sciencecategory.html" class="nav-btn btn btn-sec btn-block get-started-btn new-btn"><span>Science</span></a>
+                </li>
+                <li class="get-started-item col col-md-4 d-inline-flex">
+                    <a href="mathcategory.html" class="nav-btn btn btn-sec btn-block get-started-btn new-btn"><span>Math</span></a>
+                </li>
+                <li class="get-started-item col col-md-4 d-inline-flex">
+                    <a href="historycategory.html" class="nav-btn btn btn-sec btn-block get-started-btn new-btn"><span>History</span></a>
+                </li>
+                
+                <div class="w-100 d-none d-md-block"></div>
+                <li class="get-started-item col col-md-4 d-inline-flex">
+                    <a href="tvshowscategory.html" class="nav-btn btn btn-sec btn-block get-started-btn new-btn"><span>TV Shows</span></a>
+                </li>
+                <li class="get-started-item col col-md-4 d-inline-flex">
+                    <a href="moviescategory.html" class="nav-btn btn btn-sec btn-block get-started-btn new-btn"><span>Movies</span></a>
+                </li>
+                <li class="get-started-item col col-md-4 d-inline-flex">
+                    <a href="animecategory.html" class="nav-btn btn btn-sec btn-block get-started-btn new-btn"><span>Anime</span></a>
+                </li>
 
-            <div class="w-100 d-none d-md-block"></div>
-            <li class="get-started-item col col-md-4 d-inline-flex">
-                <a href="languagescategory.html" class="nav-btn btn btn-sec btn-block get-started-btn new-btn"><span>Languages</span></a>
-            </li>
-            <li class="get-started-item col col-md-4 d-inline-flex">
-                <a href="sportscategory.html" class="nav-btn btn btn-sec btn-block get-started-btn new-btn"><span>Sports</span></a>
-            </li>
-            <li class="get-started-item col col-md-4 d-inline-flex">
-                <a href="artcategory.html" class="nav-btn btn btn-sec btn-block get-started-btn new-btn"><span>Art</span></a>
-            </li>
-        </ul>
+                <div class="w-100 d-none d-md-block"></div>
+                <li class="get-started-item col col-md-4 d-inline-flex">
+                    <a href="languagescategory.html" class="nav-btn btn btn-sec btn-block get-started-btn new-btn"><span>Languages</span></a>
+                </li>
+                <li class="get-started-item col col-md-4 d-inline-flex">
+                    <a href="sportscategory.html" class="nav-btn btn btn-sec btn-block get-started-btn new-btn"><span>Sports</span></a>
+                </li>
+                <li class="get-started-item col col-md-4 d-inline-flex">
+                    <a href="artcategory.html" class="nav-btn btn btn-sec btn-block get-started-btn new-btn"><span>Art</span></a>
+                </li>
+            </ul>
+        </div>
     </div>
     <!----Create Now Explanation-->
     <div class="box-2">
