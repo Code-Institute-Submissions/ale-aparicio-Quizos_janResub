@@ -764,6 +764,16 @@ ul {
     display: none;
 }
 
+.popup-l {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+    width: 95%;
+    display: none;
+}
+
 .navbar-brand-form {
     width: 85%;
     font-family: "Carter One",sans-serif;
@@ -803,7 +813,7 @@ ul {
     margin-bottom: 10px;
     border: none;
     padding: 7px;
-    width: 30%;
+    width: 40%;
 }
 
 .form-btn:hover {
@@ -824,6 +834,16 @@ ul {
 }
 
 #exit-btn:hover {
+    background-color: grey;
+}
+
+#exit-btn-2 {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    margin: 0;
+    border-radius: 100%;
+}
+
+#exit-btn-2:hover {
     background-color: grey;
 }
 
