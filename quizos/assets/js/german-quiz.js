@@ -120,84 +120,84 @@ const questions = [
         ]
     },
     {
-        question: 'What was Jack Shephard’s profession before the plane crash?',
+        question: 'I love my dog',
         answers: [
-            {text: 'Software Developer', correct: false},
-            {text: 'Surgeon', correct: true},
-            {text: 'Construction Manager', correct: false},
-            {text: 'Interior Designer', correct: false},
+            {text: 'ich liebe meinin Hundie', correct: false},
+            {text: 'ich liebe meinen Hund', correct: true},
+            {text: 'ishie libei meinen Hund', correct: false},
+            {text: 'Ich libel meinan Hund', correct: false},
         ]
     },
     {
-        question: 'What happened to Hurley while he was working at Mr. Cluck’s Chicken Shack?',
+        question: 'I want pizza',
         answers: [
-            {text: 'He was hit by a car', correct: false},
-            {text: 'His twin brother died', correct: false},
-            {text: 'He won the lotto', correct: true},
-            {text: 'He got shot', correct: false},
+            {text: 'i want pikla', correct: false},
+            {text: 'Is vil passa', correct: false},
+            {text: 'ich will pizza', correct: true},
+            {text: 'ich vein pizza', correct: false},
         ]
     },
     {
-        question: "Which numbers were printed on the Swan's hatch?",
+        question: "What is your name?",
         answers: [
-            {text: '27-9-11-6-2-79', correct: false},
-            {text: '33-104-7-18-36-68', correct: false},
-            {text: '4-8-15-16-23-42', correct: true},
-            {text: '2-29-19-37-12-88', correct: false},
+            {text: 'Me ta name us', correct: false},
+            {text: 'Waie illßen Sie?', correct: false},
+            {text: 'Wie heißen Sie?', correct: true},
+            {text: 'Name ahßen Sie?', correct: false},
         ]
     },
     {
-        question: 'Who translated the voice of the then-unidentified Danielle Rousseau, speaking French?',
+        question: "It's cold out",
         answers: [
-            {text: 'Shannon Rutherford', correct: true},
-            {text: 'Kate Austen', correct: false},
-            {text: 'Juliet Burke', correct: false},
-            {text: 'Rose Nadler', correct: false},
+            {text: 'Es ist kalt', correct: true},
+            {text: 'Es ir kalt', correct: false},
+            {text: 'Es al kalt', correct: false},
+            {text: 'Es mas kalt', correct: false},
         ]
     },
     {
-        question: 'In Season 1, who kidnapped Claire and Charlie?',
+        question: 'You are beautiful',
         answers: [
-            {text: 'Charles Widmore', correct: false},
-            {text: 'Niki Fernandez', correct: false},
-            {text: 'Sayid', correct: false},
-            {text: 'Ethan Rom', correct: true},
+            {text: 'Da beist schön', correct: false},
+            {text: 'kalt est schön', correct: false},
+            {text: 'fest beishst schön', correct: false},
+            {text: 'Du bist schön', correct: true},
         ]
     },
     {
-        question: 'What was the name of the ageless protector of the Island?',
+        question: 'Goodmorning!',
         answers: [
-            {text: 'Sawyer', correct: false},
-            {text: 'Claudia', correct: false},
-            {text: 'Jacob', correct: true},
-            {text: 'Roger', correct: false},
+            {text: 'Gadmurning!', correct: false},
+            {text: 'Gust hagen!', correct: false},
+            {text: 'Guten morgan!', correct: true},
+            {text: 'Gasturding!', correct: false},
         ]
     },
     {
-        question: 'What was used to surround and protect the Barracks on the Island',
+        question: 'Pass the salt',
         answers: [
-            {text: 'Statues built by an ancient tribe of natives', correct: false},
-            {text: 'A high-frequency sonar barrier', correct: true},
-            {text: 'Unexplained, dangerous alien artifacts', correct: false},
-            {text: 'A wall', correct: false},
+            {text: 'Gaid dus sale', correct: false},
+            {text: 'Gib das salz', correct: true},
+            {text: 'Gub dais salz', correct: false},
+            {text: 'Esh un sals', correct: false},
         ]
     },
     {
-        question: 'What was the name of the warlord and drug smuggler in Nigeria who was one of the crash survivors?',
+        question: 'How are you?',
         answers: [
-            {text: 'Boone', correct: false},
-            {text: 'Bernard', correct: false},
-            {text: 'Ilana', correct: false},
-            {text: 'Eko', correct: true},
+            {text: 'Us gest es dir?', correct: false},
+            {text: 'Wahst gus es ir?', correct: false},
+            {text: 'Alst gus es dir?', correct: false},
+            {text: 'Wie geht es dir?', correct: true},
         ]
     },
     {
-        question: 'What did Hurley create in order to ease the stress and tension of being stranded?',
+        question: 'Good afternoon!',
         answers: [
-            {text: 'A short comedy show', correct: false},
-            {text: 'Golf Course', correct: true},
-            {text: 'Yoga Classes', correct: false},
-            {text: 'An area for meditation', correct: false},
+            {text: 'Gusten ahg!', correct: false},
+            {text: 'Guten tag!', correct: true},
+            {text: 'Galten tag!', correct: false},
+            {text: 'Guten asg!', correct: false},
         ]
     }
 ]
