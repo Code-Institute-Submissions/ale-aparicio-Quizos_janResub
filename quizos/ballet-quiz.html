@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="assets/fontawesome-free-5.15.3-web/fontawesome-free-5.15.3-web/css/all.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <script type="text/javascript" src="assets/js/signin-form.js"></script>
+    <script defer type="text/javascript" src="assets/js/signin-form.js"></script>
+    <script defer type="text/javascript" src="assets/js/ballet-quiz.js"></script>
     <title>Quizos</title>
 </head>
 <body>
@@ -81,46 +82,34 @@
             <button type="pass" placeholder="Sign Up!" class="form-btn">Log In!</button>
         </div>
     </div>
-    <!---Category Quizzes-->
-    <div class="box">
-        <div>
-            <h1 class="sub-category-title">Computer Science</h1>
-        </div>
-        <div class="box-3">
-            <div class="row">
-                <div class="col-md-6 col-sm description search-category align-items-center">
-                    <h3>
-                        Challenge your knowledge of all things Sports!
-                    </h3>
+   <!----Quiz---->
+   <!------Quiz Tutorial: https://www.youtube.com/watch?v=riDzcEQbX6k&ab_channel=WebDevSimplified------->
+   <div class="box-5">
+       <div class="quiz-box-2">
+           <!-----Score counter Tutorial: https://replit.com/@RichardWinter/Quiz#script.js----->
+            <form id='form-result' class="hide result-form" action="">
+                <div class="SP-container">
+                    <div class="modal-text modal-text-bigger">Done!</div>
+                    <div class="modal-text">Right answers:</div>
+                    <div class="modal-text"><span id="right-answers" class="count"> 12 </span> of <span id="all-questions" class="count">count-of-questions</span> (<span id="answers-percent"></span>%)</div> 
                 </div>
-                <div class="col-md-6 d-none d-md-block">
-                    <input type="text" placeholder="Search for quizzes...." class="category-search">
-                </div>
-            </div>
-            <div>
-                <button href="#" type="button" class="create-now-btn category-create-btn col-sm">Create your own Quiz!</button>
-            </div> 
-
-            <div class="row">
-                <div class="quiz-box text-center col-md-5 ">
-                        <a href="basketball-quiz.html"><img src="assets/images/Basketball.jpg" alt="Quiz Picture" class="quiz-img d-none d-md-inline-flex"></a>
-                    <div class="w-100 d-none d-md-block"></div>
-                    <div class="quiz-desc text-center">
-                        <a href="basketball-quiz.html"><h3>Basketball Quiz</h3></a>
-                    </div>
-                </div>
-                <div class="col-2"></div>
-                <div class="quiz-box text-center col-md-5">
-                        <a href="ballet-quiz.html"><img src="assets/images/Ballet.jpeg" alt="Quiz Picture" class="quiz-img d-none d-md-inline-flex"></a>
-                    <div class="w-100 d-none d-md-block"></div>
-                    <div class="quiz-desc text-center">
-                        <a href="ballet-quiz.html"><h3>Ballet Quiz</h3></a>
-                    </div>
+            </form>
+            <div id="question-container" class="hide">
+                <div class="number-of-question-text">Question # <span id="current-question">YYY</span> of <span id="all-questions2">XXX</span></div>
+                <div id="question" class="question-title">Question</div>
+                <div class="btn-grid" id="answer-buttons" >
+                    <button class="question-btn">Answer 1</button>
+                    <button class="question-btn">Answer 1</button>
+                    <button class="question-btn">Answer 1</button>
+                    <button class="question-btn">Answer 1</button>
                 </div>
             </div>
-
+            <div class="quiz-controls">
+                <button id="start-btn" class="start-btn question-btn">Start</button>
+                <button id="next-btn" class="nextq-btn question-btn hide">Next</button>
+            </div>
         </div>
-    </div>
+   </div>
     <!---Footer-->
     <footer class="container-fluid footercontainer bg-color-footer">
         <div class="row footerrow">
@@ -145,10 +134,10 @@
                 <h4 class="general-sub">Have an Account?</h4>
                 <ul class="inline-block account">
                     <li>
-                        <a href="#" class="footer-link">Log In</a>
+                        <a href="#" class="footer-link" id="log-in">Log In</a>
                     </li>
                     <li>
-                        <a href="#" class="footer-link">Sign Up</a>
+                        <a href="#" class="footer-link" id="sign-up">Sign Up</a>
                     </li>
                 </ul>
             </div>
@@ -172,9 +161,10 @@
             </div>
         </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script defer src="assets/fontawesome-free-5.15.3-web/fontawesome-free-5.15.3-web/js/all.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script defer src="assets/fontawesome-free-5.15.3-web/fontawesome-free-5.15.3-web/js/all.js"></script>
+</script>
 </body>
 </html>
