@@ -217,6 +217,10 @@ ul {
 .col-sm {
     position: inherit;
 }
+
+.col-lg-6 {
+    position: inherit;
+}
 /*---------------------------Heading------*/
 .navbar-nav {
     width: 100%;
@@ -341,6 +345,7 @@ ul {
 /*---------------------------Create Now Tutorial------*/
 .box-2 {
     padding: 20px;
+    text-align: center;
 }
 
 .tutorial-heading {
@@ -413,6 +418,7 @@ ul {
     display: flex;
     justify-content: center;
     align-content: center;
+    position: inherit;
   }
   
   .slider{
@@ -503,6 +509,7 @@ ul {
     display: flex;
     justify-content: center;
     align-content: center;
+    position: inherit;
   }
   
   .slider-ent {

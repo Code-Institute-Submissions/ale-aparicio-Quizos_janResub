@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="assets/fontawesome-free-5.15.3-web/fontawesome-free-5.15.3-web/css/all.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <script type="text/javascript" src="assets/js/add-img.js"></script>
-    <script type="text/javascript" src="assets/js/add-form.js"></script>
-    <script type="text/javascript" src="assets/js/signin-form.js"></script>
+    <script defer type="text/javascript" src="assets/js/add-img.js"></script>
+    <script defer type="text/javascript" src="assets/js/add-form.js"></script>
+    <script defer type="text/javascript" src="assets/js/signin-form.js"></script>
     <title>Quizos</title>
 </head>
 <body>
@@ -49,8 +49,8 @@
 </nav>
 <!---Pop Up!-->
 <!---Pop Up Tutorial(https://www.youtube.com/watch?v=ptI8g-05VM0&ab_channel=UMTutorialUMTutorial)-->
-<div class="popup-s">
-    <div class="box-3">
+<div class="popup-s popup-s-f">
+    <div class="box-4">
         <div class="navbar bg-color-navbar-form">
             <a href="index.html" class="navbar-brand-form">Quizos</a>
             <a href="#" id="exit-btn"><i class="fas fa-times-circle fa-2x" style="color: white;"></i></a>
@@ -67,8 +67,8 @@
         <button type="pass" placeholder="Sign Up!" class="form-btn">Log In!</button>
     </div>
 </div>
-<div class="popup-l">
-    <div class="box-3">
+<div class="popup-l popup-l-f">
+    <div class="box-4">
         <div class="navbar bg-color-navbar-form">
             <a href="index.html" class="navbar-brand-form">Quizos</a>
             <a href="#" id="exit-btn-2"><i class="fas fa-times-circle fa-2x" style="color: white;"></i></a>
@@ -109,7 +109,7 @@
         <div class="question-form">   
             <div class="row">
                 <div class="col-lg-6">
-                    <div class="w-100 d-md-block sub-title" id="first-question">Question 1:</div>
+                    <div class="w-100 d-md-block sub-title" id="first-question">Question:</div>
                     <input type="text" placeholder="" class="create-input">
                 </div>
             </div>
@@ -137,7 +137,7 @@
         <div class="question-form">
             <div class="row">
                 <div class="col-lg-6">
-                    <div class="w-100 d-md-block sub-title">Question 2:</div>
+                    <div class="w-100 d-md-block sub-title">Question:</div>
                     <input type="text" placeholder="" class="create-input">
                 </div>
             </div>
@@ -165,7 +165,7 @@
         <div class="question-form">
             <div class="row">
                 <div class="col-lg-6">
-                    <div class="w-100 d-md-block sub-title">Question 3:</div>
+                    <div class="w-100 d-md-block sub-title">Question:</div>
                     <input type="text" placeholder="" class="create-input">
                 </div>
             </div>
@@ -193,7 +193,7 @@
         <div class="question-form">
             <div class="row">
                 <div class="col-lg-6">
-                    <div class="w-100 d-md-block sub-title">Question 4:</div>
+                    <div class="w-100 d-md-block sub-title">Question:</div>
                     <input type="text" placeholder="" class="create-input">
                 </div>
             </div>
@@ -221,7 +221,7 @@
         <div class="question-form" id="last-form">
             <div class="row">
                 <div class="col-lg-6">
-                    <div class="w-100 d-md-block sub-title">Question <span id="last-question">5</span>:</div>
+                    <div class="w-100 d-md-block sub-title">Question <span id="last-question"></span>:</div>
                     <input type="text" placeholder="" class="create-input">
                 </div>
             </div>
@@ -282,10 +282,10 @@
                 <h4 class="general-sub">Have an Account?</h4>
                 <ul class="inline-block account">
                     <li>
-                        <a href="#" class="footer-link">Log In</a>
+                        <a href="#" class="footer-link" id="log-in-f">Log In</a>
                     </li>
                     <li>
-                        <a href="#" class="footer-link">Sign Up</a>
+                        <a href="#" class="footer-link" id="sign-in-f">Sign Up</a>
                     </li>
                 </ul>
             </div>

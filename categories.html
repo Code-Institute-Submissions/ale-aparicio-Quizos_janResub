@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="assets/fontawesome-free-5.15.3-web/fontawesome-free-5.15.3-web/css/all.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <script type="text/javascript" src="assets/js/script.js"></script>
+    <script defer type="text/javascript" src="assets/js/slider.js"></script>
+    <script defer type="text/javascript" src="assets/js/signin-form.js"></script>
     <title>Quizos</title>
 </head>
 <body>
@@ -45,8 +46,10 @@
             </div>
         </div>
     </nav>
-    <div class="popup-s">
-        <div class="box-3">
+    <!---Pop Up!-->
+    <!---Pop Up Tutorial(https://www.youtube.com/watch?v=ptI8g-05VM0&ab_channel=UMTutorialUMTutorial)-->
+    <div class="popup-s popup-s-f">
+        <div class="box-4">
             <div class="navbar bg-color-navbar-form">
                 <a href="index.html" class="navbar-brand-form">Quizos</a>
                 <a href="#" id="exit-btn"><i class="fas fa-times-circle fa-2x" style="color: white;"></i></a>
@@ -63,8 +66,8 @@
             <button type="pass" placeholder="Sign Up!" class="form-btn">Log In!</button>
         </div>
     </div>
-    <div class="popup-l">
-        <div class="box-3">
+    <div class="popup-l popup-l-f">
+        <div class="box-4">
             <div class="navbar bg-color-navbar-form">
                 <a href="index.html" class="navbar-brand-form">Quizos</a>
                 <a href="#" id="exit-btn-2"><i class="fas fa-times-circle fa-2x" style="color: white;"></i></a>
@@ -76,7 +79,7 @@
             <input type="text" placeholder="email@email.com" class="create-input">
             <div class="sub-title">Password:</div>
             <input type="password" placeholder="********" class="create-input">
-            <button type="pass" placeholder="Sign Up!" class="form-btn">Log In!</button>
+            <button type="pass" placeholder="Sign Up!" class="form-btn form-btn-2">Log In!</button>
         </div>
     </div>
     <!---Categories-->
@@ -93,19 +96,19 @@
                     <a href="categories/mathcategory.html"><img src="assets/images/Math Banner.png" alt="Math Banner"></a>
                 </div>
                 <div class="slide">
-                    <a href="sciencecategory.html"><img src="assets/images/Science Banner.jpg" alt="Science Banner"></a>
+                    <a href="categories/sciencecategory.html"><img src="assets/images/Science Banner.jpg" alt="Science Banner"></a>
                 </div>
                 <div class="slide">
-                    <a href="computercategory.html"><img src="assets/images/Computer Science.jpg" alt="Computer Science Banner"></a>
+                    <a href="categories/computercategory.html"><img src="assets/images/Computer Science.jpg" alt="Computer Science Banner"></a>
                 </div>
                 <div class="slide">
-                    <a href="socialstudiescategory.html"><img src="assets/images/Social Studies.jpg" alt="Scocial Studies Banner"></a>
+                    <a href="categories/socialstudiescategory.html"><img src="assets/images/Social Studies.jpg" alt="Soccial Studies Banner"></a>
                 </div>
                 <div class="slide">
-                    <a href="languagescategory.html"><img src="assets/images/Languages Banner.jpg" alt="Languages Banner"></a>
+                    <a href="categories/languagescategory.html"><img src="assets/images/Languages Banner.jpg" alt="Languages Banner"></a>
                 </div>
                 <div class="slide">
-                    <a href="historycategory.html"><img src="assets/images/History Banner.jpg" alt="History Banner"></a>
+                    <a href="categories/historycategory.html"><img src="assets/images/History Banner.jpg" alt="History Banner"></a>
                 </div>
                 <div class="navigation">
                     <i class="fas fa-chevron-left prev-btn"></i>
@@ -123,46 +126,46 @@
         <div class="w-100 d-md-block sub-title">Educational</div>
         <ul class="row container- fluid  d-md-flex get-started">
             <li class="category-item col col-md-4 d-inline-flex">
-                <a href="mathcategory.html" class="nav-btn btn btn-sec btn-block new-btn"><span>Math</span></a>
+                <a href="categories/mathcategory.html" class="nav-btn btn btn-sec btn-block new-btn"><span>Math</span></a>
             </li>
             <li class="category-item col col-md-4 d-inline-flex">
-                <a href="sciencecategory.html" class="nav-btn btn btn-sec btn-block new-btn"><span>Science</span></a>
+                <a href="categories/sciencecategory.html" class="nav-btn btn btn-sec btn-block new-btn"><span>Science</span></a>
             </li>
             <li class="category-item col col-md-4 d-inline-flex">
-                <a href="computercategory.html" class="nav-btn btn btn-sec btn-block new-btn"><span>Computers</span></a>
+                <a href="categories/computercategory.html" class="nav-btn btn btn-sec btn-block new-btn"><span>Computers</span></a>
             </li>
             
             <div class="w-100 d-none d-md-block"></div>
             <li class="category-item col col-md-4 d-inline-flex">
-                <a href="socialstudiescategory.html" class="nav-btn btn btn-sec btn-block new-btn"><span>Social Studies</span></a>
+                <a href="categories/socialstudiescategory.html" class="nav-btn btn btn-sec btn-block new-btn"><span>Social Studies</span></a>
             </li>
             <li class="category-item col col-md-4 d-inline-flex">
-                <a href="languagescategory.html" class="nav-btn btn btn-sec btn-block new-btn"><span>Languages</span></a>
+                <a href="categories/languagescategory.html" class="nav-btn btn btn-sec btn-block new-btn"><span>Languages</span></a>
             </li>
             <li class="category-item col col-md-4 d-inline-flex">
-                <a href="historycategory.html" class="nav-btn btn btn-sec btn-block new-btn"><span>History</span></a>
+                <a href="categories/historycategory.html" class="nav-btn btn btn-sec btn-block new-btn"><span>History</span></a>
             </li>
         </ul>
         <!---Entertainment Slider-->
         <div class="slider-box-ent d-none d-sm-inline-flex">
             <div class="slider-ent">
                 <div class="slide-ent active">
-                    <a href="moviescategory.html"><img src="assets/images/Movies Banner.jpg" alt="Movie Banner"></a>
+                    <a href="categories/moviescategory.html"><img src="assets/images/Movies Banner.jpg" alt="Movie Banner"></a>
                 </div>
                 <div class="slide-ent">
-                    <a href="animecategory.html"><img src="assets/images/Anime Banner.jpg" alt="Anime Banner"></a>
+                    <a href="categories/animecategory.html"><img src="assets/images/Anime Banner.jpg" alt="Anime Banner"></a>
                 </div>
                 <div class="slide-ent">
-                    <a href="sportscategory.html"><img src="assets/images/Sports Banner.jpg" alt="Sports Banner"></a>
+                    <a href="categories/animecategory.html"><img src="assets/images/Sports Banner.jpg" alt="Sports Banner"></a>
                 </div>
                 <div class="slide-ent">
-                    <a href="tvshowscategory.html"><img src="assets/images/TV Shows Banner.jpg" alt="TV Shows Banner"></a>
+                    <a href="categories/tvshowscategory.html"><img src="assets/images/TV Shows Banner.jpg" alt="TV Shows Banner"></a>
                 </div>
                 <div class="slide-ent">
-                    <a href="musiccategory.html"><img src="assets/images/Music Banner.jpg" alt="Music Banner"></a>
+                    <a href="categories/musiccategory.html"><img src="assets/images/Music Banner.jpg" alt="Music Banner"></a>
                 </div>
                 <div class="slide-ent">
-                    <a href="artcategory.html"><img src="assets/images/Art Banner.jpg" alt="Art Banner"></a>
+                    <a href="categories/artcategory.html"><img src="assets/images/Art Banner.jpg" alt="Art Banner"></a>
                 </div>
                 <div class="navigation-ent">
                     <i class="fas fa-chevron-left prev-btn-ent"></i>
@@ -180,24 +183,24 @@
         <div class="w-100 d-md-block sub-title">Entertainment</div>
         <ul class="row container- fluid  d-md-flex get-started">
             <li class="category-item col col-md-4 d-inline-flex">
-                <a href="moviescategory.html" class="nav-btn btn btn-sec btn-block new-btn"><span>Movies</span></a>
+                <a href="categories/moviescategory.html" class="nav-btn btn btn-sec btn-block new-btn"><span>Movies</span></a>
             </li>
             <li class="category-item col col-md-4 d-inline-flex">
-                <a href="animecategory.html" class="nav-btn btn btn-sec btn-block new-btn"><span>Anime</span></a>
+                <a href="categories/animecategory.html" class="nav-btn btn btn-sec btn-block new-btn"><span>Anime</span></a>
             </li>
             <li class="category-item col col-md-4 d-inline-flex">
-                <a href="sportscategory.html" class="nav-btn btn btn-sec btn-block new-btn"><span>Sports</span></a>
+                <a href="categories/sportscategory.html" class="nav-btn btn btn-sec btn-block new-btn"><span>Sports</span></a>
             </li>
             
             <div class="w-100 d-none d-md-block"></div>
             <li class="category-item col col-md-4 d-inline-flex">
-                <a href="tvshowscategory.html" class="nav-btn btn btn-sec btn-block new-btn"><span>TV Shows</span></a>
+                <a href="categories/tvshowscategory.html" class="nav-btn btn btn-sec btn-block new-btn"><span>TV Shows</span></a>
             </li>
             <li class="category-item col col-md-4 d-inline-flex">
-                <a href="musiccategory.html" class="nav-btn btn btn-sec btn-block new-btn"><span>Music</span></a>
+                <a href="categories/musiccategory.html" class="nav-btn btn btn-sec btn-block new-btn"><span>Music</span></a>
             </li>
             <li class="category-item col col-md-4 d-inline-flex">
-                <a href="artcategory.html" class="nav-btn btn btn-sec btn-block new-btn"><span>Art</span></a>
+                <a href="categories/artcategory.html" class="nav-btn btn btn-sec btn-block new-btn"><span>Art</span></a>
             </li>
         </ul>
     </div>
@@ -225,10 +228,10 @@
                 <h4 class="general-sub">Have an Account?</h4>
                 <ul class="inline-block account">
                     <li>
-                        <a href="#" class="footer-link">Log In</a>
+                        <a href="#" class="footer-link" id="log-in-f">Log In</a>
                     </li>
                     <li>
-                        <a href="#" class="footer-link">Sign Up</a>
+                        <a href="#" class="footer-link" id="sign-up-f">Sign Up</a>
                     </li>
                 </ul>
             </div>
@@ -236,17 +239,17 @@
                 <h4 class="general-sub">Let us know what you think!</h4>
                 <ul class="inline-block social-media">
                     <li>
-                        <a href="#" class="social-links" id="twitter" target="_blank"><i class="fab fa-twitter fa-lg" style="color: #00acee;"></i>&nbsp;Twitter</a>
+                        <a href="twitter.com" class="social-links" id="twitter" target="_blank"><i class="fab fa-twitter fa-lg" style="color: #00acee;"></i>&nbsp;Twitter</a>
                     </li>
                     <li> 
-                        <a href="#" class="social-links" id="facebook" target="_blank"><i class="fab fa-facebook-square fa-lg" style="color: #4b71c4;"></i>&nbsp;Facebook</a>
+                        <a href="facebook.com" class="social-links" id="facebook" target="_blank"><i class="fab fa-facebook-square fa-lg" style="color: #4b71c4;"></i>&nbsp;Facebook</a>
                     </li>
                     <div class="w-100 d-none d-md-block"></div> 
                     <li>
-                        <a href="#" class="social-links" id="youtube" target="_blank"><i class="fab fa-youtube fa-lg" style="color: #FF0000;"></i>&nbsp;Youtube</a>
+                        <a href="youtube.com" class="social-links" id="youtube" target="_blank"><i class="fab fa-youtube fa-lg" style="color: #FF0000;"></i>&nbsp;Youtube</a>
                     </li>
                     <li>
-                        <a href="#" class="social-links" id="instagram" target="_blank"><i class="fab fa-instagram fa-lg" style="color: #8a3ab9;"></i>&nbsp;Instagram</a>
+                        <a href="instagram.com" class="social-links" id="instagram" target="_blank"><i class="fab fa-instagram fa-lg" style="color: #8a3ab9;"></i>&nbsp;Instagram</a>
                     </li>
                 </ul>
             </div>
