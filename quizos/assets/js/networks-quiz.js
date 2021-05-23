@@ -111,93 +111,89 @@ function clearStatusClass(element) {
 
 const questions = [
     {
-        question: 'What is the flight number of the plane that crashed into the island?',
+        question: '_______ is how we write code',
         answers: [
-            {text: 'Flight 815 ', correct: true},
-            {text: 'Flight 980', correct: false},
-            {text: 'Flight 754', correct: false},
-            {text: 'Flight 678', correct: false},
+            {text: 'Syntax', correct: true},
+            {text: 'Variables', correct: false},
+            {text: 'Loops', correct: false},
+            {text: 'Functions', correct: false},
         ]
     },
     {
-        question: 'What was Jack Shephard’s profession before the plane crash?',
+        question: 'In the code example: hero.moveRight(), what is the object?',
         answers: [
-            {text: 'Software Developer', correct: false},
-            {text: 'Surgeon', correct: true},
-            {text: 'Construction Manager', correct: false},
-            {text: 'Interior Designer', correct: false},
+            {text: 'move', correct: false},
+            {text: 'hero', correct: true},
+            {text: '()', correct: false},
+            {text: 'Right', correct: false},
         ]
     },
     {
-        question: 'What happened to Hurley while he was working at Mr. Cluck’s Chicken Shack?',
+        question: 'In the code example: hero.moveRight(), how is it read aloud?',
         answers: [
-            {text: 'He was hit by a car', correct: false},
-            {text: 'His twin brother died', correct: false},
-            {text: 'He won the lotto', correct: true},
-            {text: 'He got shot', correct: false},
+            {text: 'hero move right', correct: false},
+            {text: 'hero dot move right', correct: true},
+            {text: 'move right hero', correct: false},
+            {text: 'right move dot hero', correct: false},
         ]
     },
     {
-        question: "Which numbers were printed on the Swan's hatch?",
+        question: "________ are the building blocks, they are things or characters that perform actions",
         answers: [
-            {text: '27-9-11-6-2-79', correct: false},
-            {text: '33-104-7-18-36-68', correct: false},
-            {text: '4-8-15-16-23-42', correct: true},
-            {text: '2-29-19-37-12-88', correct: false},
+            {text: 'Variable', correct: false},
+            {text: 'Syntax', correct: false},
+            {text: 'Objects', correct: true},
+            {text: 'Functions', correct: false},
         ]
     },
     {
-        question: 'Who translated the voice of the then-unidentified Danielle Rousseau, speaking French?',
+        question: '__________ are actions an object can do',
         answers: [
-            {text: 'Shannon Rutherford', correct: true},
-            {text: 'Kate Austen', correct: false},
-            {text: 'Juliet Burke', correct: false},
-            {text: 'Rose Nadler', correct: false},
+            {text: 'Value', correct: false},
+            {text: 'Objects', correct: false},
+            {text: 'Syntax', correct: false},
+            {text: 'Functions', correct: true},
         ]
     },
     {
-        question: 'In Season 1, who kidnapped Claire and Charlie?',
+        question: 'Function names are always followed by parentheses',
         answers: [
-            {text: 'Charles Widmore', correct: false},
-            {text: 'Niki Fernandez', correct: false},
-            {text: 'Sayid', correct: false},
-            {text: 'Ethan Rom', correct: true},
+            {text: 'False', correct: false},
+            {text: 'True', correct: true},
         ]
     },
     {
-        question: 'What was the name of the ageless protector of the Island?',
+        question: 'Order does not matter',
         answers: [
-            {text: 'Sawyer', correct: false},
-            {text: 'Claudia', correct: false},
-            {text: 'Jacob', correct: true},
-            {text: 'Roger', correct: false},
+            {text: 'False', correct: true},
+            {text: 'True', correct: false},
         ]
     },
     {
-        question: 'What was used to surround and protect the Barracks on the Island',
+        question: ' _____ is a way of repeating code',
         answers: [
-            {text: 'Statues built by an ancient tribe of natives', correct: false},
-            {text: 'A high-frequency sonar barrier', correct: true},
-            {text: 'Unexplained, dangerous alien artifacts', correct: false},
-            {text: 'A wall', correct: false},
+            {text: 'While', correct: false},
+            {text: 'Loop', correct: true},
+            {text: 'Expression', correct: false},
+            {text: 'Lopp', correct: false},
         ]
     },
     {
-        question: 'What was the name of the warlord and drug smuggler in Nigeria who was one of the crash survivors?',
+        question: 'What is a key word in Loop?',
         answers: [
-            {text: 'Boone', correct: false},
-            {text: 'Bernard', correct: false},
-            {text: 'Ilana', correct: false},
-            {text: 'Eko', correct: true},
+            {text: 'Expression', correct: false},
+            {text: 'Action', correct: false},
+            {text: 'True', correct: false},
+            {text: 'While', correct: true},
         ]
     },
     {
-        question: 'What did Hurley create in order to ease the stress and tension of being stranded?',
+        question: 'What do you type for an infinite loop?',
         answers: [
-            {text: 'A short comedy show', correct: false},
-            {text: 'Golf Course', correct: true},
-            {text: 'Yoga Classes', correct: false},
-            {text: 'An area for meditation', correct: false},
+            {text: 'while True ()', correct: false},
+            {text: 'while True:', correct: true},
+            {text: 'While true:', correct: false},
+            {text: 'While True ()', correct: false},
         ]
     }
 ]
