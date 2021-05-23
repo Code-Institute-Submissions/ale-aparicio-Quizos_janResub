@@ -111,12 +111,12 @@ function clearStatusClass(element) {
 
 const questions = [
     {
-        question: 'What is the flight number of the plane that crashed into the island?',
+        question: 'Hello My friend',
         answers: [
-            {text: 'Flight 815 ', correct: true},
-            {text: 'Flight 980', correct: false},
-            {text: 'Flight 754', correct: false},
-            {text: 'Flight 678', correct: false},
+            {text: 'Hallo, mein Freund', correct: true},
+            {text: 'Hillo, mein fround', correct: false},
+            {text: 'Hallo, me friendo', correct: false},
+            {text: 'Hello, mein frind', correct: false},
         ]
     },
     {
