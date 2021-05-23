@@ -111,93 +111,93 @@ function clearStatusClass(element) {
 
 const questions = [
     {
-        question: 'What is the flight number of the plane that crashed into the island?',
+        question: 'What king helped to popularize ballet?',
         answers: [
-            {text: 'Flight 815 ', correct: true},
-            {text: 'Flight 980', correct: false},
-            {text: 'Flight 754', correct: false},
-            {text: 'Flight 678', correct: false},
+            {text: 'King Louis XIV', correct: true},
+            {text: 'King Henry VIII', correct: false},
+            {text: 'King Henry II', correct: false},
+            {text: 'King Louis III', correct: false},
         ]
     },
     {
-        question: 'What was Jack Shephard’s profession before the plane crash?',
+        question: 'What popular role did King Louis XIV famously perform?',
         answers: [
-            {text: 'Software Developer', correct: false},
-            {text: 'Surgeon', correct: true},
-            {text: 'Construction Manager', correct: false},
-            {text: 'Interior Designer', correct: false},
+            {text: 'Nutcracker', correct: false},
+            {text: 'Sun King', correct: true},
+            {text: 'Moon King', correct: false},
+            {text: 'Romeo', correct: false},
         ]
     },
     {
-        question: 'What happened to Hurley while he was working at Mr. Cluck’s Chicken Shack?',
+        question: 'Ballet originated in which courts in what century?',
         answers: [
-            {text: 'He was hit by a car', correct: false},
-            {text: 'His twin brother died', correct: false},
-            {text: 'He won the lotto', correct: true},
-            {text: 'He got shot', correct: false},
+            {text: 'French Renaissance & 2nd', correct: false},
+            {text: 'French Renaissance & 15th', correct: false},
+            {text: 'Italian Renaissance & 15th', correct: true},
+            {text: 'Italian Renaissance & 2nd', correct: false},
         ]
     },
     {
-        question: "Which numbers were printed on the Swan's hatch?",
+        question: "The 19th Century was known as what period?",
         answers: [
-            {text: '27-9-11-6-2-79', correct: false},
-            {text: '33-104-7-18-36-68', correct: false},
-            {text: '4-8-15-16-23-42', correct: true},
-            {text: '2-29-19-37-12-88', correct: false},
+            {text: 'Classical', correct: false},
+            {text: 'Renaissance', correct: false},
+            {text: 'Romantic', correct: true},
+            {text: 'Neo-Classical', correct: false},
         ]
     },
     {
-        question: 'Who translated the voice of the then-unidentified Danielle Rousseau, speaking French?',
+        question: 'Which of the following was not created by Marius Petipa?',
         answers: [
-            {text: 'Shannon Rutherford', correct: true},
-            {text: 'Kate Austen', correct: false},
-            {text: 'Juliet Burke', correct: false},
-            {text: 'Rose Nadler', correct: false},
+            {text: 'The Nutcracker', correct: true},
+            {text: 'The Nutcracker', correct: false},
+            {text: 'Swan Lake', correct: false},
+            {text: 'Sleeping Beauty', correct: false},
         ]
     },
     {
-        question: 'In Season 1, who kidnapped Claire and Charlie?',
+        question: " A dancer's turn out is....",
         answers: [
-            {text: 'Charles Widmore', correct: false},
-            {text: 'Niki Fernandez', correct: false},
-            {text: 'Sayid', correct: false},
-            {text: 'Ethan Rom', correct: true},
+            {text: 'Their knees', correct: false},
+            {text: 'Their head placement', correct: false},
+            {text: 'The rotation of their hips', correct: false},
+            {text: 'Their arm placement', correct: true},
         ]
     },
     {
-        question: 'What was the name of the ageless protector of the Island?',
+        question: 'Port de Bras is...',
         answers: [
-            {text: 'Sawyer', correct: false},
-            {text: 'Claudia', correct: false},
-            {text: 'Jacob', correct: true},
-            {text: 'Roger', correct: false},
+            {text: 'The positions of the feet', correct: false},
+            {text: 'To stretch the foot', correct: false},
+            {text: 'The carriage of the arms', correct: true},
+            {text: 'The rotation from the hip', correct: false},
         ]
     },
     {
-        question: 'What was used to surround and protect the Barracks on the Island',
+        question: 'Tendu means ________ in french',
         answers: [
-            {text: 'Statues built by an ancient tribe of natives', correct: false},
-            {text: 'A high-frequency sonar barrier', correct: true},
-            {text: 'Unexplained, dangerous alien artifacts', correct: false},
-            {text: 'A wall', correct: false},
+            {text: 'Turnout', correct: false},
+            {text: 'To Stretch', correct: true},
+            {text: 'To Flex', correct: false},
+            {text: 'To point', correct: false},
         ]
     },
     {
-        question: 'What was the name of the warlord and drug smuggler in Nigeria who was one of the crash survivors?',
+        question: 'En Croix means',
         answers: [
-            {text: 'Boone', correct: false},
-            {text: 'Bernard', correct: false},
-            {text: 'Ilana', correct: false},
-            {text: 'Eko', correct: true},
+            {text: 'Turnout of the hip', correct: false},
+            {text: 'In a circle', correct: false},
+            {text: 'The carriage of the arms', correct: false},
+            {text: 'In the shape of a cross', correct: true},
         ]
     },
     {
-        question: 'What did Hurley create in order to ease the stress and tension of being stranded?',
+        question: 'Releve means',
         answers: [
-            {text: 'A short comedy show', correct: false},
-            {text: 'Golf Course', correct: true},
-            {text: 'Yoga Classes', correct: false},
-            {text: 'An area for meditation', correct: false},
+            {text: 'In the shape of a cross', correct: false},
+            {text: 'To rise', correct: true},
+            {text: 'To turn out', correct: false},
+            {text: 'To bend', correct: false},
         ]
     }
 ]

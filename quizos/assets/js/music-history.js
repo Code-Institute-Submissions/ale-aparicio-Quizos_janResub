@@ -111,93 +111,93 @@ function clearStatusClass(element) {
 
 const questions = [
     {
-        question: 'What is the flight number of the plane that crashed into the island?',
+        question: 'Which of the following is NOT a composer from the ROMANTIC era?',
         answers: [
-            {text: 'Flight 815 ', correct: true},
-            {text: 'Flight 980', correct: false},
-            {text: 'Flight 754', correct: false},
-            {text: 'Flight 678', correct: false},
+            {text: 'Beethoven', correct: true},
+            {text: 'Chopin', correct: false},
+            {text: 'Brahms', correct: false},
+            {text: 'Schumann', correct: false},
         ]
     },
     {
-        question: 'What was Jack Shephard’s profession before the plane crash?',
+        question: 'Modern era composers are influenced by the styles of Broadway and ___________?',
         answers: [
-            {text: 'Software Developer', correct: false},
-            {text: 'Surgeon', correct: true},
-            {text: 'Construction Manager', correct: false},
-            {text: 'Interior Designer', correct: false},
+            {text: 'Baroque', correct: false},
+            {text: 'Jazz', correct: true},
+            {text: 'Pop', correct: false},
+            {text: 'Impressionism', correct: false},
         ]
     },
     {
-        question: 'What happened to Hurley while he was working at Mr. Cluck’s Chicken Shack?',
+        question: 'During the Baroque era, music was written for nobility and for the __________.',
         answers: [
-            {text: 'He was hit by a car', correct: false},
-            {text: 'His twin brother died', correct: false},
-            {text: 'He won the lotto', correct: true},
-            {text: 'He got shot', correct: false},
+            {text: 'Public', correct: false},
+            {text: 'Lower class', correct: false},
+            {text: 'Church', correct: true},
+            {text: 'Politicians', correct: false},
         ]
     },
     {
-        question: "Which numbers were printed on the Swan's hatch?",
+        question: "What was the most popular keyboard instrument during the Baroque era?",
         answers: [
-            {text: '27-9-11-6-2-79', correct: false},
-            {text: '33-104-7-18-36-68', correct: false},
-            {text: '4-8-15-16-23-42', correct: true},
-            {text: '2-29-19-37-12-88', correct: false},
+            {text: 'Piano', correct: false},
+            {text: 'Organ', correct: false},
+            {text: 'Harpsichord', correct: true},
+            {text: 'Clavichord', correct: false},
         ]
     },
     {
-        question: 'Who translated the voice of the then-unidentified Danielle Rousseau, speaking French?',
+        question: 'During which era did Mozart live?',
         answers: [
-            {text: 'Shannon Rutherford', correct: true},
-            {text: 'Kate Austen', correct: false},
-            {text: 'Juliet Burke', correct: false},
-            {text: 'Rose Nadler', correct: false},
+            {text: 'Classical', correct: true},
+            {text: 'Baroque', correct: false},
+            {text: 'Romantic', correct: false},
+            {text: 'Modern', correct: false},
         ]
     },
     {
-        question: 'In Season 1, who kidnapped Claire and Charlie?',
+        question: 'Stravinsky is from which era?',
         answers: [
-            {text: 'Charles Widmore', correct: false},
-            {text: 'Niki Fernandez', correct: false},
-            {text: 'Sayid', correct: false},
-            {text: 'Ethan Rom', correct: true},
+            {text: 'Baroque', correct: false},
+            {text: 'Romantic', correct: false},
+            {text: 'Classical', correct: false},
+            {text: 'Modern', correct: true},
         ]
     },
     {
-        question: 'What was the name of the ageless protector of the Island?',
+        question: 'Which era features music and art that is highly ornamental and decorative?',
         answers: [
-            {text: 'Sawyer', correct: false},
-            {text: 'Claudia', correct: false},
-            {text: 'Jacob', correct: true},
-            {text: 'Roger', correct: false},
+            {text: 'Impressionism', correct: false},
+            {text: 'Jazz', correct: false},
+            {text: 'Baroque', correct: true},
+            {text: 'Romantic', correct: false},
         ]
     },
     {
-        question: 'What was used to surround and protect the Barracks on the Island',
+        question: 'The symphony as a musical form appeared during which era?',
         answers: [
-            {text: 'Statues built by an ancient tribe of natives', correct: false},
-            {text: 'A high-frequency sonar barrier', correct: true},
-            {text: 'Unexplained, dangerous alien artifacts', correct: false},
-            {text: 'A wall', correct: false},
+            {text: 'Baroque', correct: false},
+            {text: 'Classical', correct: true},
+            {text: 'Romantic', correct: false},
+            {text: 'Modern', correct: false},
         ]
     },
     {
-        question: 'What was the name of the warlord and drug smuggler in Nigeria who was one of the crash survivors?',
+        question: 'The Romantic era dates from about. . . . .?',
         answers: [
-            {text: 'Boone', correct: false},
-            {text: 'Bernard', correct: false},
-            {text: 'Ilana', correct: false},
-            {text: 'Eko', correct: true},
+            {text: '1600-1750', correct: false},
+            {text: '1000-1500', correct: false},
+            {text: '1900-present', correct: false},
+            {text: '1800-1900', correct: true},
         ]
     },
     {
-        question: 'What did Hurley create in order to ease the stress and tension of being stranded?',
+        question: 'Who is the most famous composer of the Baroque era?',
         answers: [
-            {text: 'A short comedy show', correct: false},
-            {text: 'Golf Course', correct: true},
-            {text: 'Yoga Classes', correct: false},
-            {text: 'An area for meditation', correct: false},
+            {text: 'Schubert', correct: false},
+            {text: 'Bach', correct: true},
+            {text: 'Beethoven', correct: false},
+            {text: 'Mozart', correct: false},
         ]
     }
 ]

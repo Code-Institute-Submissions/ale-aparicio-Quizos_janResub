@@ -111,93 +111,93 @@ function clearStatusClass(element) {
 
 const questions = [
     {
-        question: 'What is the flight number of the plane that crashed into the island?',
+        question: "Who sang 'Perfect'?",
         answers: [
-            {text: 'Flight 815 ', correct: true},
-            {text: 'Flight 980', correct: false},
-            {text: 'Flight 754', correct: false},
-            {text: 'Flight 678', correct: false},
+            {text: 'Callum Scott', correct: false},
+            {text: 'Shawn Mendes', correct: false},
+            {text: 'Beyonce', correct: false},
+            {text: 'Ed Sheeran', correct: true},
         ]
     },
     {
-        question: 'What was Jack Shephard’s profession before the plane crash?',
+        question: "Who sang 'Havanna'?",
         answers: [
-            {text: 'Software Developer', correct: false},
-            {text: 'Surgeon', correct: true},
-            {text: 'Construction Manager', correct: false},
-            {text: 'Interior Designer', correct: false},
+            {text: 'Fifth Harmony', correct: false},
+            {text: 'Camilla Cabello', correct: true},
+            {text: 'Ariana Grande', correct: false},
+            {text: 'Halsey', correct: false},
         ]
     },
     {
-        question: 'What happened to Hurley while he was working at Mr. Cluck’s Chicken Shack?',
+        question: "Who sang 'In My Feelings'?",
         answers: [
-            {text: 'He was hit by a car', correct: false},
-            {text: 'His twin brother died', correct: false},
-            {text: 'He won the lotto', correct: true},
-            {text: 'He got shot', correct: false},
+            {text: 'Meek Mill', correct: false},
+            {text: '21Savage', correct: false},
+            {text: 'Drake', correct: true},
+            {text: 'Nicki Minaj', correct: false},
         ]
     },
     {
-        question: "Which numbers were printed on the Swan's hatch?",
+        question: "Who sang 'Finesse'?",
         answers: [
-            {text: '27-9-11-6-2-79', correct: false},
-            {text: '33-104-7-18-36-68', correct: false},
-            {text: '4-8-15-16-23-42', correct: true},
-            {text: '2-29-19-37-12-88', correct: false},
+            {text: 'XXXtentacion', correct: false},
+            {text: 'Post Malone', correct: false},
+            {text: 'Bruno Mars', correct: true},
+            {text: 'Maroon 5', correct: false},
         ]
     },
     {
-        question: 'Who translated the voice of the then-unidentified Danielle Rousseau, speaking French?',
+        question: "Who sang 'Thank u, Next'?",
         answers: [
-            {text: 'Shannon Rutherford', correct: true},
-            {text: 'Kate Austen', correct: false},
-            {text: 'Juliet Burke', correct: false},
-            {text: 'Rose Nadler', correct: false},
+            {text: 'Ariana Grande', correct: true},
+            {text: 'Callum Scott', correct: false},
+            {text: 'Imagine Dragons', correct: false},
+            {text: 'Adele', correct: false},
         ]
     },
     {
-        question: 'In Season 1, who kidnapped Claire and Charlie?',
+        question: "Who sang 'F.R.I.E.N.D.S'?",
         answers: [
-            {text: 'Charles Widmore', correct: false},
-            {text: 'Niki Fernandez', correct: false},
-            {text: 'Sayid', correct: false},
-            {text: 'Ethan Rom', correct: true},
+            {text: 'Halsey ft. Khalid', correct: false},
+            {text: 'Ed Sheeran ft. Jessie Ware', correct: false},
+            {text: 'David Guetta ft. Rihanna', correct: false},
+            {text: 'Marshmello ft. Anne-Marie', correct: true},
         ]
     },
     {
-        question: 'What was the name of the ageless protector of the Island?',
+        question: "Who sang 'I Like Me Better'?",
         answers: [
-            {text: 'Sawyer', correct: false},
-            {text: 'Claudia', correct: false},
-            {text: 'Jacob', correct: true},
-            {text: 'Roger', correct: false},
+            {text: 'Queen', correct: false},
+            {text: 'Imagine Dragons', correct: false},
+            {text: 'Lauv', correct: true},
+            {text: 'Callum Scott', correct: false},
         ]
     },
     {
-        question: 'What was used to surround and protect the Barracks on the Island',
+        question: "Who sang 'In My Blood'?",
         answers: [
-            {text: 'Statues built by an ancient tribe of natives', correct: false},
-            {text: 'A high-frequency sonar barrier', correct: true},
-            {text: 'Unexplained, dangerous alien artifacts', correct: false},
-            {text: 'A wall', correct: false},
+            {text: '21Savage', correct: false},
+            {text: 'Shawn Mendes', correct: true},
+            {text: 'Bruno Mars', correct: false},
+            {text: 'Taylor Swift', correct: false},
         ]
     },
     {
-        question: 'What was the name of the warlord and drug smuggler in Nigeria who was one of the crash survivors?',
+        question: "Who sang 'Freaky Friday'?",
         answers: [
-            {text: 'Boone', correct: false},
-            {text: 'Bernard', correct: false},
-            {text: 'Ilana', correct: false},
-            {text: 'Eko', correct: true},
+            {text: 'Cardi B ft. Maroon 5', correct: false},
+            {text: 'Clean Bandit', correct: false},
+            {text: 'Drake', correct: false},
+            {text: 'Chris Brown ft. Lil Dicky', correct: true},
         ]
     },
     {
-        question: 'What did Hurley create in order to ease the stress and tension of being stranded?',
+        question: "Who sang 'Shake It Off'?",
         answers: [
-            {text: 'A short comedy show', correct: false},
-            {text: 'Golf Course', correct: true},
-            {text: 'Yoga Classes', correct: false},
-            {text: 'An area for meditation', correct: false},
+            {text: 'Ariana Grande', correct: false},
+            {text: 'Taylor Swift', correct: true},
+            {text: 'Demi Lovato', correct: false},
+            {text: 'Shawn Mendes', correct: false},
         ]
     }
 ]

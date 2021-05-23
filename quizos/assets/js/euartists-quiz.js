@@ -111,93 +111,93 @@ function clearStatusClass(element) {
 
 const questions = [
     {
-        question: 'What is the flight number of the plane that crashed into the island?',
+        question: 'Who painted the last supper?',
         answers: [
-            {text: 'Flight 815 ', correct: true},
-            {text: 'Flight 980', correct: false},
-            {text: 'Flight 754', correct: false},
-            {text: 'Flight 678', correct: false},
+            {text: 'Leonardo Da Vinci', correct: true},
+            {text: 'Michelangelo', correct: false},
+            {text: 'Sandro Botticelli ', correct: false},
+            {text: 'Raphael ', correct: false},
         ]
     },
     {
-        question: 'What was Jack Shephard’s profession before the plane crash?',
+        question: 'What Italian city was known as the birthplace of the renaissance?',
         answers: [
-            {text: 'Software Developer', correct: false},
-            {text: 'Surgeon', correct: true},
-            {text: 'Construction Manager', correct: false},
-            {text: 'Interior Designer', correct: false},
+            {text: 'Venice', correct: false},
+            {text: 'Florence', correct: true},
+            {text: 'Rome', correct: false},
+            {text: 'Milan', correct: false},
         ]
     },
     {
-        question: 'What happened to Hurley while he was working at Mr. Cluck’s Chicken Shack?',
+        question: 'Who painted the school of Athens?',
         answers: [
-            {text: 'He was hit by a car', correct: false},
-            {text: 'His twin brother died', correct: false},
-            {text: 'He won the lotto', correct: true},
-            {text: 'He got shot', correct: false},
+            {text: 'Pablo Picasso', correct: false},
+            {text: 'Paul Cezanne', correct: false},
+            {text: 'Raphael', correct: true},
+            {text: 'Michelangelo', correct: false},
         ]
     },
     {
-        question: "Which numbers were printed on the Swan's hatch?",
+        question: "What painter was suspected of stealing the Mona Lisa in 1911?",
         answers: [
-            {text: '27-9-11-6-2-79', correct: false},
-            {text: '33-104-7-18-36-68', correct: false},
-            {text: '4-8-15-16-23-42', correct: true},
-            {text: '2-29-19-37-12-88', correct: false},
+            {text: 'Pablo Picasso', correct: true},
+            {text: 'Paul Cezanne', correct: false},
+            {text: 'Henri Matisse', correct: false},
+            {text: 'Edgar Degas', correct: false},
         ]
     },
     {
-        question: 'Who translated the voice of the then-unidentified Danielle Rousseau, speaking French?',
+        question: 'What period is Peter Paul Ruben’s associated with?',
         answers: [
-            {text: 'Shannon Rutherford', correct: true},
-            {text: 'Kate Austen', correct: false},
-            {text: 'Juliet Burke', correct: false},
-            {text: 'Rose Nadler', correct: false},
+            {text: 'Baroque', correct: true},
+            {text: 'Realism ', correct: false},
+            {text: 'Renaissance', correct: false},
+            {text: 'Romanticism', correct: false},
         ]
     },
     {
-        question: 'In Season 1, who kidnapped Claire and Charlie?',
+        question: 'How many versions of The Scream did Edward munch create?',
         answers: [
-            {text: 'Charles Widmore', correct: false},
-            {text: 'Niki Fernandez', correct: false},
-            {text: 'Sayid', correct: false},
-            {text: 'Ethan Rom', correct: true},
+            {text: '6', correct: false},
+            {text: '5', correct: false},
+            {text: '8', correct: false},
+            {text: '4', correct: true},
         ]
     },
     {
-        question: 'What was the name of the ageless protector of the Island?',
+        question: 'How many paintings did van Gogh sell in his lifetime?',
         answers: [
-            {text: 'Sawyer', correct: false},
-            {text: 'Claudia', correct: false},
-            {text: 'Jacob', correct: true},
-            {text: 'Roger', correct: false},
+            {text: '3', correct: false},
+            {text: '70', correct: false},
+            {text: '1', correct: true},
+            {text: '4', correct: false},
         ]
     },
     {
-        question: 'What was used to surround and protect the Barracks on the Island',
+        question: 'What is the largest art museum in the world?',
         answers: [
-            {text: 'Statues built by an ancient tribe of natives', correct: false},
-            {text: 'A high-frequency sonar barrier', correct: true},
-            {text: 'Unexplained, dangerous alien artifacts', correct: false},
-            {text: 'A wall', correct: false},
+            {text: 'National museum of china', correct: false},
+            {text: 'Louvre', correct: true},
+            {text: 'Metropolitan museum of art', correct: false},
+            {text: 'State hermitage museum', correct: false},
         ]
     },
     {
-        question: 'What was the name of the warlord and drug smuggler in Nigeria who was one of the crash survivors?',
+        question: 'what art movement was Claude Monet part of?',
         answers: [
-            {text: 'Boone', correct: false},
-            {text: 'Bernard', correct: false},
-            {text: 'Ilana', correct: false},
-            {text: 'Eko', correct: true},
+            {text: 'Romanticism', correct: false},
+            {text: 'Renaissance', correct: false},
+            {text: 'Realism', correct: false},
+            {text: 'Impressionism', correct: true},
         ]
     },
     {
-        question: 'What did Hurley create in order to ease the stress and tension of being stranded?',
+        question: 'What Spanish painter is known as the last of the old masters and the first of the modern?',
         answers: [
-            {text: 'A short comedy show', correct: false},
-            {text: 'Golf Course', correct: true},
-            {text: 'Yoga Classes', correct: false},
-            {text: 'An area for meditation', correct: false},
+            {text: 'Pablo Picasso', correct: false},
+            {text: 'Francisco Goya', correct: true},
+            {text: 'Diego Velazquez', correct: false},
+            {text: 'El Greco', correct: false},
         ]
     }
 ]

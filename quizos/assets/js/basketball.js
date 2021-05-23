@@ -111,93 +111,93 @@ function clearStatusClass(element) {
 
 const questions = [
     {
-        question: 'What is the flight number of the plane that crashed into the island?',
+        question: ' What team does Lebron James play for?',
         answers: [
-            {text: 'Flight 815 ', correct: true},
-            {text: 'Flight 980', correct: false},
-            {text: 'Flight 754', correct: false},
-            {text: 'Flight 678', correct: false},
+            {text: 'Cleveland Cavaliers ', correct: true},
+            {text: 'Miami Heat', correct: false},
+            {text: 'Los Angeles Lakers', correct: false},
+            {text: 'Atlanta Hawks', correct: false},
         ]
     },
     {
-        question: 'What was Jack Shephard’s profession before the plane crash?',
+        question: 'How many points is a Free Throw worth?',
         answers: [
-            {text: 'Software Developer', correct: false},
-            {text: 'Surgeon', correct: true},
-            {text: 'Construction Manager', correct: false},
-            {text: 'Interior Designer', correct: false},
+            {text: '3', correct: false},
+            {text: '1', correct: true},
+            {text: '5', correct: false},
+            {text: '2', correct: false},
         ]
     },
     {
-        question: 'What happened to Hurley while he was working at Mr. Cluck’s Chicken Shack?',
+        question: 'What teams did Michael Jordan play for?',
         answers: [
-            {text: 'He was hit by a car', correct: false},
-            {text: 'His twin brother died', correct: false},
-            {text: 'He won the lotto', correct: true},
-            {text: 'He got shot', correct: false},
+            {text: 'Bulls and Pistons', correct: false},
+            {text: 'Lakers and Bulls', correct: false},
+            {text: 'Bulls and Wizards', correct: true},
+            {text: 'Bulls and Mavericks', correct: false},
         ]
     },
     {
-        question: "Which numbers were printed on the Swan's hatch?",
+        question: "Who is the current league MVP?",
         answers: [
-            {text: '27-9-11-6-2-79', correct: false},
-            {text: '33-104-7-18-36-68', correct: false},
-            {text: '4-8-15-16-23-42', correct: true},
-            {text: '2-29-19-37-12-88', correct: false},
+            {text: 'Kobe Bryant', correct: false},
+            {text: 'Lebron James', correct: false},
+            {text: 'Stephen Curry', correct: true},
+            {text: 'James Harden', correct: false},
         ]
     },
     {
-        question: 'Who translated the voice of the then-unidentified Danielle Rousseau, speaking French?',
+        question: 'Who are the defending NBA champs?',
         answers: [
-            {text: 'Shannon Rutherford', correct: true},
-            {text: 'Kate Austen', correct: false},
-            {text: 'Juliet Burke', correct: false},
-            {text: 'Rose Nadler', correct: false},
+            {text: 'Golden State Warriors', correct: true},
+            {text: 'Cleveland Cavaliers', correct: false},
+            {text: 'San Antonio Spurs', correct: false},
+            {text: 'Chicago Bulls', correct: false},
         ]
     },
     {
-        question: 'In Season 1, who kidnapped Claire and Charlie?',
+        question: 'What team won the 2016 NBA Championship?',
         answers: [
-            {text: 'Charles Widmore', correct: false},
-            {text: 'Niki Fernandez', correct: false},
-            {text: 'Sayid', correct: false},
-            {text: 'Ethan Rom', correct: true},
+            {text: 'None of these', correct: false},
+            {text: 'Golden State Warriors', correct: false},
+            {text: 'OKC Thunder', correct: false},
+            {text: 'Cleveland Caveliers', correct: true},
         ]
     },
     {
-        question: 'What was the name of the ageless protector of the Island?',
+        question: 'Who are the top 3 NBA Players of 2017?',
         answers: [
-            {text: 'Sawyer', correct: false},
-            {text: 'Claudia', correct: false},
-            {text: 'Jacob', correct: true},
-            {text: 'Roger', correct: false},
+            {text: 'Chris Paul, Russell Westbrook, Stephen Curry', correct: false},
+            {text: 'LeBron James, Kevin Durant, Stephen Curry', correct: false},
+            {text: 'Anthony Davis, James Harden, Kawhi Leonard', correct: true},
+            {text: 'None of the Above', correct: false},
         ]
     },
     {
-        question: 'What was used to surround and protect the Barracks on the Island',
+        question: 'Who are some of the basketball players with shoe brands?',
         answers: [
-            {text: 'Statues built by an ancient tribe of natives', correct: false},
-            {text: 'A high-frequency sonar barrier', correct: true},
-            {text: 'Unexplained, dangerous alien artifacts', correct: false},
-            {text: 'A wall', correct: false},
+            {text: "Curry's that's all", correct: false},
+            {text: "Kobe's, LeBrons, Curry's ,  Kevin Durant's, Jordan's, Kryrie's", correct: true},
+            {text: "Green's, Nike, Harden's, Perkins", correct: false},
+            {text: "LeBron's and that's all", correct: false},
         ]
     },
     {
-        question: 'What was the name of the warlord and drug smuggler in Nigeria who was one of the crash survivors?',
+        question: 'What is a basketball hoops diameter and height?',
         answers: [
-            {text: 'Boone', correct: false},
-            {text: 'Bernard', correct: false},
-            {text: 'Ilana', correct: false},
-            {text: 'Eko', correct: true},
+            {text: 'Diameter= 17 inches Height= 9 feet', correct: false},
+            {text: 'Diameter= 10 inches Height= 7 feet', correct: false},
+            {text: 'Diameter= 15 inches Height= 12 feet', correct: false},
+            {text: 'Diameter= 18 inches Height= 10 feet', correct: true},
         ]
     },
     {
-        question: 'What did Hurley create in order to ease the stress and tension of being stranded?',
+        question: 'How many total players are allowed on the court at any given time?',
         answers: [
-            {text: 'A short comedy show', correct: false},
-            {text: 'Golf Course', correct: true},
-            {text: 'Yoga Classes', correct: false},
-            {text: 'An area for meditation', correct: false},
+            {text: '8', correct: false},
+            {text: '10', correct: true},
+            {text: '5', correct: false},
+            {text: '12', correct: false},
         ]
     }
 ]

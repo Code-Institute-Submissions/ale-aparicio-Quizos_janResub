@@ -111,93 +111,93 @@ function clearStatusClass(element) {
 
 const questions = [
     {
-        question: 'What is the flight number of the plane that crashed into the island?',
+        question: 'Which period in art history had mostly RELIGION as the subject?',
         answers: [
-            {text: 'Flight 815 ', correct: true},
-            {text: 'Flight 980', correct: false},
-            {text: 'Flight 754', correct: false},
-            {text: 'Flight 678', correct: false},
+            {text: 'Gothic', correct: true},
+            {text: 'Ancient Greek', correct: false},
+            {text: 'Renaissance', correct: false},
+            {text: 'Impressionism', correct: false},
         ]
     },
     {
-        question: 'What was Jack Shephard’s profession before the plane crash?',
+        question: 'Which period in art history had mostly ANIMALS as the subject?',
         answers: [
-            {text: 'Software Developer', correct: false},
-            {text: 'Surgeon', correct: true},
-            {text: 'Construction Manager', correct: false},
-            {text: 'Interior Designer', correct: false},
+            {text: 'Ancient Greek', correct: false},
+            {text: 'Paleolithic', correct: true},
+            {text: 'Gothic', correct: false},
+            {text: 'Renaissance', correct: false},
         ]
     },
     {
-        question: 'What happened to Hurley while he was working at Mr. Cluck’s Chicken Shack?',
+        question: 'Which period in art history was a REBIRTH of ideas like math and science, and a more REALISTIC approach to artwork?',
         answers: [
-            {text: 'He was hit by a car', correct: false},
-            {text: 'His twin brother died', correct: false},
-            {text: 'He won the lotto', correct: true},
-            {text: 'He got shot', correct: false},
+            {text: 'Gothic', correct: false},
+            {text: 'Impressionism', correct: false},
+            {text: 'Renaissance', correct: true},
+            {text: 'Cubism', correct: false},
         ]
     },
     {
-        question: "Which numbers were printed on the Swan's hatch?",
+        question: "In which period in art history did artists start painting outdoors to capture the changing effects of light? (*hint: this was a response to the invention of photography).",
         answers: [
-            {text: '27-9-11-6-2-79', correct: false},
-            {text: '33-104-7-18-36-68', correct: false},
-            {text: '4-8-15-16-23-42', correct: true},
-            {text: '2-29-19-37-12-88', correct: false},
+            {text: 'Pop Art', correct: false},
+            {text: 'Cubism', correct: false},
+            {text: 'Impressionism', correct: true},
+            {text: 'Renaissance', correct: false},
         ]
     },
     {
-        question: 'Who translated the voice of the then-unidentified Danielle Rousseau, speaking French?',
+        question: ' In the _____________ movement, we saw the first use of perspective to show the illusion of depth in artwork.',
         answers: [
-            {text: 'Shannon Rutherford', correct: true},
-            {text: 'Kate Austen', correct: false},
-            {text: 'Juliet Burke', correct: false},
-            {text: 'Rose Nadler', correct: false},
+            {text: 'Renaissance', correct: true},
+            {text: 'Cubism', correct: false},
+            {text: 'Gothic', correct: false},
+            {text: 'Pop Art', correct: false},
         ]
     },
     {
-        question: 'In Season 1, who kidnapped Claire and Charlie?',
+        question: 'What time period best matches the Gothic art history movement?',
         answers: [
-            {text: 'Charles Widmore', correct: false},
-            {text: 'Niki Fernandez', correct: false},
-            {text: 'Sayid', correct: false},
-            {text: 'Ethan Rom', correct: true},
+            {text: 'prehistoric', correct: false},
+            {text: '1920s', correct: false},
+            {text: 'late 1800s', correct: false},
+            {text: '1100s - 1300s', correct: true},
         ]
     },
     {
-        question: 'What was the name of the ageless protector of the Island?',
+        question: 'Where was the Renaissance art history movement mostly taking place?',
         answers: [
-            {text: 'Sawyer', correct: false},
-            {text: 'Claudia', correct: false},
-            {text: 'Jacob', correct: true},
-            {text: 'Roger', correct: false},
+            {text: 'France', correct: false},
+            {text: 'Greece', correct: false},
+            {text: 'Italy', correct: true},
+            {text: 'America', correct: false},
         ]
     },
     {
-        question: 'What was used to surround and protect the Barracks on the Island',
+        question: 'Who painted the sun flower piece',
         answers: [
-            {text: 'Statues built by an ancient tribe of natives', correct: false},
-            {text: 'A high-frequency sonar barrier', correct: true},
-            {text: 'Unexplained, dangerous alien artifacts', correct: false},
-            {text: 'A wall', correct: false},
+            {text: 'Michael Johnson', correct: false},
+            {text: 'Vincent Van Gogh', correct: true},
+            {text: 'Pablo Picasso', correct: false},
+            {text: 'Claude Monet', correct: false},
         ]
     },
     {
-        question: 'What was the name of the warlord and drug smuggler in Nigeria who was one of the crash survivors?',
+        question: 'Who painted the Mona Lisa?',
         answers: [
-            {text: 'Boone', correct: false},
-            {text: 'Bernard', correct: false},
-            {text: 'Ilana', correct: false},
-            {text: 'Eko', correct: true},
+            {text: 'Titian', correct: false},
+            {text: 'Diego Rivera', correct: false},
+            {text: 'Frida Kahlo', correct: false},
+            {text: 'Leonardo da Vinci', correct: true},
         ]
     },
     {
-        question: 'What did Hurley create in order to ease the stress and tension of being stranded?',
+        question: 'Who painted the Birth of Venus',
         answers: [
-            {text: 'A short comedy show', correct: false},
-            {text: 'Golf Course', correct: true},
-            {text: 'Yoga Classes', correct: false},
-            {text: 'An area for meditation', correct: false},
+            {text: 'Raphael', correct: false},
+            {text: 'Sandro Botticelli', correct: true},
+            {text: 'Vincent Van Gogh', correct: false},
+            {text: 'Grant Wood', correct: false},
         ]
     }
 ]
