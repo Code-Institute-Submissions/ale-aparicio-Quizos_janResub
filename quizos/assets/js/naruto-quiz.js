@@ -147,11 +147,11 @@ const questions = [
         ]
     },
     {
-        question: 'What’s the fourth hokages name',
+        question: 'What’s the fourth Hokage’s name',
         answers: [
             {text: 'Naruto Uzumaki', correct: false},
             {text: 'Kakashi Hatake', correct: false},
-            {text: 'Minato namikaze', correct: true},
+            {text: 'Minato Namikaze', correct: true},
             {text: 'Hiruzen Saurtobi', correct: false},
         ]
     },
@@ -160,7 +160,7 @@ const questions = [
         answers: [
             {text: 'Abruame', correct: false},
             {text: 'Hyuga', correct: false},
-            {text: 'Uzmaki', correct: false},
+            {text: 'Uzumaki', correct: false},
             {text: 'Uchiha', correct: true},
         ]
     },
@@ -174,7 +174,7 @@ const questions = [
         ]
     },
     {
-        question: 'Who’s Naruto mom',
+        question: "Who's Naruto's mom",
         answers: [
             {text: 'Lady tsunade', correct: false},
             {text: 'Kushina Uzumaki', correct: true},
