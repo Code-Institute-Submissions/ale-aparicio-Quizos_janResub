@@ -111,93 +111,89 @@ function clearStatusClass(element) {
 
 const questions = [
     {
-        question: 'What is the flight number of the plane that crashed into the island?',
+        question: 'Who was president during WWI?',
         answers: [
-            {text: 'Flight 815 ', correct: true},
-            {text: 'Flight 980', correct: false},
-            {text: 'Flight 754', correct: false},
-            {text: 'Flight 678', correct: false},
+            {text: 'Woodrow Wilson', correct: true},
+            {text: 'Abraham Lincoln', correct: false},
+            {text: 'Theodore Roosevelt', correct: false},
+            {text: 'Donald Trump', correct: false},
         ]
     },
     {
-        question: 'What was Jack Shephard’s profession before the plane crash?',
+        question: 'Who were the countries fighting for the ally powers?',
         answers: [
-            {text: 'Software Developer', correct: false},
-            {text: 'Surgeon', correct: true},
-            {text: 'Construction Manager', correct: false},
-            {text: 'Interior Designer', correct: false},
+            {text: 'France, Belgium, Alaska, Mexico', correct: false},
+            {text: 'France, Belgium, Great Britain, Russia, Serbia', correct: true},
+            {text: 'Iraq, Iran, India, Greece', correct: false},
+            {text: 'Central Powers', correct: false},
         ]
     },
     {
-        question: 'What happened to Hurley while he was working at Mr. Cluck’s Chicken Shack?',
+        question: ' What was the name of Austria Hungary, Bulgaria, Germany, and the Ottoman Empire?',
         answers: [
-            {text: 'He was hit by a car', correct: false},
-            {text: 'His twin brother died', correct: false},
-            {text: 'He won the lotto', correct: true},
-            {text: 'He got shot', correct: false},
+            {text: 'Central Powers', correct: true},
+            {text: 'Allies', correct: false},
         ]
     },
     {
-        question: "Which numbers were printed on the Swan's hatch?",
+        question: "What was the name of the British passenger ship that was sank by the Germans?",
         answers: [
-            {text: '27-9-11-6-2-79', correct: false},
-            {text: '33-104-7-18-36-68', correct: false},
-            {text: '4-8-15-16-23-42', correct: true},
-            {text: '2-29-19-37-12-88', correct: false},
+            {text: 'The Titanic', correct: false},
+            {text: 'The Carnival Cruise Ship', correct: false},
+            {text: 'Lusitania', correct: true},
+            {text: 'The World Ship', correct: false},
         ]
     },
     {
-        question: 'Who translated the voice of the then-unidentified Danielle Rousseau, speaking French?',
+        question: 'In what year did WW1 start',
         answers: [
-            {text: 'Shannon Rutherford', correct: true},
-            {text: 'Kate Austen', correct: false},
-            {text: 'Juliet Burke', correct: false},
-            {text: 'Rose Nadler', correct: false},
+            {text: '1914', correct: true},
+            {text: '1912', correct: false},
+            {text: '1916', correct: false},
+            {text: '1920', correct: false},
         ]
     },
     {
-        question: 'In Season 1, who kidnapped Claire and Charlie?',
+        question: 'What year did WW1 end?',
         answers: [
-            {text: 'Charles Widmore', correct: false},
-            {text: 'Niki Fernandez', correct: false},
-            {text: 'Sayid', correct: false},
-            {text: 'Ethan Rom', correct: true},
+            {text: '1930', correct: false},
+            {text: '1919', correct: false},
+            {text: '1900', correct: false},
+            {text: '1918', correct: true},
         ]
     },
     {
-        question: 'What was the name of the ageless protector of the Island?',
+        question: 'What caused the US to enter the war?',
         answers: [
-            {text: 'Sawyer', correct: false},
-            {text: 'Claudia', correct: false},
-            {text: 'Jacob', correct: true},
-            {text: 'Roger', correct: false},
+            {text: 'Army tanks being blown up', correct: false},
+            {text: 'US soldiers being killed', correct: false},
+            {text: 'US ships being sank', correct: true},
+            {text: 'Germany assassinated the president', correct: false},
         ]
     },
     {
-        question: 'What was used to surround and protect the Barracks on the Island',
+        question: 'What were the submarines called that were used by Germany?',
         answers: [
-            {text: 'Statues built by an ancient tribe of natives', correct: false},
-            {text: 'A high-frequency sonar barrier', correct: true},
-            {text: 'Unexplained, dangerous alien artifacts', correct: false},
-            {text: 'A wall', correct: false},
+            {text: 'W Boats', correct: false},
+            {text: 'U Boats', correct: true},
+            {text: 'Tanks', correct: false},
+            {text: 'Missiles', correct: false},
         ]
     },
     {
-        question: 'What was the name of the warlord and drug smuggler in Nigeria who was one of the crash survivors?',
+        question: 'Which side did the US support?',
         answers: [
-            {text: 'Boone', correct: false},
-            {text: 'Bernard', correct: false},
-            {text: 'Ilana', correct: false},
-            {text: 'Eko', correct: true},
+            {text: 'Central Powers', correct: false},
+            {text: 'Allies', correct: true},
         ]
     },
     {
-        question: 'What did Hurley create in order to ease the stress and tension of being stranded?',
+        question: 'Who sank the British Passenger ship?',
         answers: [
-            {text: 'A short comedy show', correct: false},
-            {text: 'Golf Course', correct: true},
-            {text: 'Yoga Classes', correct: false},
-            {text: 'An area for meditation', correct: false},
+            {text: 'Belgium', correct: false},
+            {text: 'Germany', correct: true},
+            {text: 'Russia', correct: false},
+            {text: 'US', correct: false},
         ]
     }
 ]
