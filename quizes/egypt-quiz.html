@@ -5,17 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/fontawesome-free-5.15.3-web/fontawesome-free-5.15.3-web/css/all.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="/assets/fontawesome-free-5.15.3-web/fontawesome-free-5.15.3-web/css/all.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
 
-    <script defer type="text/javascript" src="assets/js/signin-form.js"></script>
-    <script defer type="text/javascript" src="assets/js/egypt-quiz.js"></script>
+    <script defer type="text/javascript" src="/assets/js/signin-form.js"></script>
+    <script defer type="text/javascript" src="/assets/js/quizes/egypt-quiz.js"></script>
     <title>Quizos</title>
 </head>
 <body>
     <!---Heading-->
     <nav class="navbar navbar-expand-lg bg-color-navbar header-block">
-        <a href="index.html" class="navbar-brand">Quizos</a>
+        <a href="/index.html" class="navbar-brand">Quizos</a>
         <button class="navbar-toggler navbar-dark" data-toggle="collapse" data-target="#navbarMenu"> 
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -24,10 +24,10 @@
             <div class="navbar-nav list-inline align-items-center">
                 <div class="nav-elements-right">
                     <li class="nav-item list-inline-item">
-                        <a href="index.html" class="nav-link">Home</a>
+                        <a href="/index.html" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item list-inline-item">
-                        <a href="categories.html" class="nav-link">Categories</a>
+                        <a href="/categories.html" class="nav-link">Categories</a>
                     </li>
                 </div>
                 <div class="nav-elements-right">
@@ -48,7 +48,7 @@
     </nav>
     <!---Pop Up!-->
     <!---Pop Up Tutorial(https://www.youtube.com/watch?v=ptI8g-05VM0&ab_channel=UMTutorialUMTutorial)-->
-    <div class="popup-s">
+    <div class="popup-s popup-s-f">
         <div class="box-4">
             <div class="navbar bg-color-navbar-form">
                 <a href="index.html" class="navbar-brand-form">Quizos</a>
@@ -63,10 +63,10 @@
             <input type="text" placeholder="user123" class="create-input">
             <div class="sub-title">Password:</div>
             <input type="password" placeholder="********" class="create-input">
-            <button type="pass" placeholder="Sign Up!" class="form-btn">Log In!</button>
+            <button type="pass" placeholder="Sign Up!" class="form-btn form-btn-2">Log In!</button>
         </div>
     </div>
-    <div class="popup-l">
+    <div class="popup-l popup-l-f">
         <div class="box-4">
             <div class="navbar bg-color-navbar-form">
                 <a href="index.html" class="navbar-brand-form">Quizos</a>
@@ -79,12 +79,12 @@
             <input type="text" placeholder="email@email.com" class="create-input">
             <div class="sub-title">Password:</div>
             <input type="password" placeholder="********" class="create-input">
-            <button type="pass" placeholder="Sign Up!" class="form-btn">Log In!</button>
+            <button type="pass" placeholder="Sign Up!" class="form-btn form-btn-2">Log In!</button>
         </div>
     </div>
-   <!----Quiz---->
-   <!------Quiz Tutorial: https://www.youtube.com/watch?v=riDzcEQbX6k&ab_channel=WebDevSimplified------->
-   <div class="box-5">
+    <!----Quiz---->
+    <!------Quiz Tutorial: https://www.youtube.com/watch?v=riDzcEQbX6k&ab_channel=WebDevSimplified------->
+    <div class="box-5">
        <div class="quiz-box-2">
            <!-----Score counter Tutorial: https://replit.com/@RichardWinter/Quiz#script.js----->
             <form id='form-result' class="hide result-form" action="">
@@ -109,24 +109,24 @@
                 <button id="next-btn" class="nextq-btn question-btn hide">Next</button>
             </div>
         </div>
-   </div>
+    </div>
     <!---Footer-->
     <footer class="container-fluid footercontainer bg-color-footer">
         <div class="row footerrow">
             <div class="col-sm footercols">
-                <a href="index.html" class="footer-brand">Quizos</a>
+                <a href="/index.html" class="footer-brand">Quizos</a>
             </div>
             <div class="col-sm footercols inline-block">
                 <h4 class="general-sub">Explore</h4>
                 <ul class="inline-block explore">
                     <li>
-                        <a href="index.html" class="footer-link">Home</a>
+                        <a href="/index.html" class="footer-link">Home</a>
                     </li>
                     <li>
-                        <a href="categories.html" class="footer-link">Categories</a>
+                        <a href="/categories.html" class="footer-link">Categories</a>
                     </li>
                     <li>
-                        <a href="#" class="footer-link">Create Now</a>
+                        <a href="/create.html" class="footer-link">Create Now</a>
                     </li>
                 </ul>
             </div>
@@ -134,10 +134,10 @@
                 <h4 class="general-sub">Have an Account?</h4>
                 <ul class="inline-block account">
                     <li>
-                        <a href="#" class="footer-link" id="log-in">Log In</a>
+                        <a href="#" class="footer-link" id="log-in-f">Log In</a>
                     </li>
                     <li>
-                        <a href="#" class="footer-link" id="sign-up">Sign Up</a>
+                        <a href="#" class="footer-link" id="sign-up-f">Sign Up</a>
                     </li>
                 </ul>
             </div>
@@ -145,17 +145,17 @@
                 <h4 class="general-sub">Let us know what you think!</h4>
                 <ul class="inline-block social-media">
                     <li>
-                        <a href="#" class="social-links" id="twitter" target="_blank"><i class="fab fa-twitter fa-lg" style="color: #00acee;"></i>&nbsp;Twitter</a>
+                        <a href="https://twitter.com/" class="social-links" id="twitter" target="_blank"><i class="fab fa-twitter fa-lg" style="color: #00acee;"></i>&nbsp;Twitter</a>
                     </li>
                     <li> 
-                        <a href="#" class="social-links" id="facebook" target="_blank"><i class="fab fa-facebook-square fa-lg" style="color: #4b71c4;"></i>&nbsp;Facebook</a>
+                        <a href="https://www.facebook.com/" class="social-links" id="facebook" target="_blank"><i class="fab fa-facebook-square fa-lg" style="color: #4b71c4;"></i>&nbsp;Facebook</a>
                     </li>
                     <div class="w-100 d-none d-md-block"></div> 
                     <li>
-                        <a href="#" class="social-links" id="youtube" target="_blank"><i class="fab fa-youtube fa-lg" style="color: #FF0000;"></i>&nbsp;Youtube</a>
+                        <a href="https://www.youtube.com/" class="social-links" id="youtube" target="_blank"><i class="fab fa-youtube fa-lg" style="color: #FF0000;"></i>&nbsp;Youtube</a>
                     </li>
                     <li>
-                        <a href="#" class="social-links" id="instagram" target="_blank"><i class="fab fa-instagram fa-lg" style="color: #8a3ab9;"></i>&nbsp;Instagram</a>
+                        <a href="https://www.instagram.com/" class="social-links" id="instagram" target="_blank"><i class="fab fa-instagram fa-lg" style="color: #8a3ab9;"></i>&nbsp;Instagram</a>
                     </li>
                 </ul>
             </div>
@@ -164,7 +164,6 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<script defer src="assets/fontawesome-free-5.15.3-web/fontawesome-free-5.15.3-web/js/all.js"></script>
-</script>
+<script defer src="/assets/fontawesome-free-5.15.3-web/fontawesome-free-5.15.3-web/js/all.js"></script>
 </body>
 </html>
