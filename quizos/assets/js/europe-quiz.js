@@ -111,93 +111,93 @@ function clearStatusClass(element) {
 
 const questions = [
     {
-        question: 'What is the flight number of the plane that crashed into the island?',
+        question: 'What did the Columbian Exchange cause to happen?',
         answers: [
-            {text: 'Flight 815 ', correct: true},
-            {text: 'Flight 980', correct: false},
-            {text: 'Flight 754', correct: false},
-            {text: 'Flight 678', correct: false},
+            {text: 'Sharing of new ideas & products caused economic growth', correct: true},
+            {text: 'Europeans were killed by American diseases.', correct: false},
+            {text: 'Sharing of new ideas & products caused the economy to get worse', correct: false},
+            {text: 'A sharing of jobs in both the Americas and Europe between Native Americans and immigrants', correct: false},
         ]
     },
     {
-        question: 'What was Jack Shephard’s profession before the plane crash?',
+        question: 'Where did democracy originate?',
         answers: [
-            {text: 'Software Developer', correct: false},
-            {text: 'Surgeon', correct: true},
-            {text: 'Construction Manager', correct: false},
-            {text: 'Interior Designer', correct: false},
+            {text: 'Visigoths', correct: false},
+            {text: 'Ancient Greece', correct: true},
+            {text: 'Mongolians', correct: false},
+            {text: 'Ancient Rome', correct: false},
         ]
     },
     {
-        question: 'What happened to Hurley while he was working at Mr. Cluck’s Chicken Shack?',
+        question: 'What is a heretic?',
         answers: [
-            {text: 'He was hit by a car', correct: false},
-            {text: 'His twin brother died', correct: false},
-            {text: 'He won the lotto', correct: true},
-            {text: 'He got shot', correct: false},
+            {text: 'A person who has a lot of hair', correct: false},
+            {text: 'A person whose beliefs are the same as the Church.', correct: false},
+            {text: 'A person whose beliefs are not the same as the Church.', correct: true},
+            {text: 'A person who lives near the woods', correct: false},
         ]
     },
     {
-        question: "Which numbers were printed on the Swan's hatch?",
+        question: " King Ferdinand believed anyone who was a heretic and didn't follow God as the Catholic Church believed, should die. As a result, what movement did he begin?",
         answers: [
-            {text: '27-9-11-6-2-79', correct: false},
-            {text: '33-104-7-18-36-68', correct: false},
-            {text: '4-8-15-16-23-42', correct: true},
-            {text: '2-29-19-37-12-88', correct: false},
+            {text: 'The Spanish Inquisition', correct: true},
+            {text: 'The Black Death', correct: false},
+            {text: 'The Holy Crusades', correct: false},
+            {text: 'The Gutenberg Press', correct: false},
         ]
     },
     {
-        question: 'Who translated the voice of the then-unidentified Danielle Rousseau, speaking French?',
+        question: 'What technology created in the Middle Ages changed the world and how?',
         answers: [
-            {text: 'Shannon Rutherford', correct: true},
-            {text: 'Kate Austen', correct: false},
-            {text: 'Juliet Burke', correct: false},
-            {text: 'Rose Nadler', correct: false},
+            {text: 'The Gutenberg press now allowed the mass printing of books.', correct: true},
+            {text: 'The Spanish Inquisition developed a new questioning process used by all police in the world today.', correct: false},
+            {text: 'The grape press now allowed the making of ', correct: false},
+            {text: 'The Holy Crusades now allowed the mass destruction of Jerusalem.', correct: false},
         ]
     },
     {
-        question: 'In Season 1, who kidnapped Claire and Charlie?',
+        question: 'What was one of the results of the pope promising the Christian men of Western Europe that their sins would be forgiven if they went on the Crusades?',
         answers: [
-            {text: 'Charles Widmore', correct: false},
-            {text: 'Niki Fernandez', correct: false},
-            {text: 'Sayid', correct: false},
-            {text: 'Ethan Rom', correct: true},
+            {text: 'Many men enlisted to fight the Crusades knowing all the sins they had committed.', correct: false},
+            {text: 'Many women and children died without their husbands and fathers to care for them.', correct: false},
+            {text: 'Many men ran away from the Catholic Church and became Orthodox to keep from enlisting in the military.', correct: false},
+            {text: 'Many men died and lowering the population of Western Europe', correct: true},
         ]
     },
     {
-        question: 'What was the name of the ageless protector of the Island?',
+        question: 'Who shared the concept of self-government with the French?',
         answers: [
-            {text: 'Sawyer', correct: false},
-            {text: 'Claudia', correct: false},
-            {text: 'Jacob', correct: true},
-            {text: 'Roger', correct: false},
+            {text: 'Americans during their own American Revolution', correct: true},
+            {text: 'Napoleon during his reign of France', correct: false},
+            {text: 'Canadians during their own Revolution', correct: false},
+            {text: 'British during their war with France', correct: false},
         ]
     },
     {
-        question: 'What was used to surround and protect the Barracks on the Island',
+        question: 'What are the name of the three long-shaped countries that acronym is also "Never Stops Freezing?"',
         answers: [
-            {text: 'Statues built by an ancient tribe of natives', correct: false},
-            {text: 'A high-frequency sonar barrier', correct: true},
-            {text: 'Unexplained, dangerous alien artifacts', correct: false},
-            {text: 'A wall', correct: false},
+            {text: 'Netherlands, Switzerland, France', correct: false},
+            {text: 'Norway, Sweden, Finland', correct: true},
+            {text: 'Norway, Switzerland, France', correct: false},
+            {text: 'Netherlands, Sweden, France', correct: false},
         ]
     },
     {
-        question: 'What was the name of the warlord and drug smuggler in Nigeria who was one of the crash survivors?',
+        question: 'How do Europeans work to cooperate together and maintain peace?',
         answers: [
-            {text: 'Boone', correct: false},
-            {text: 'Bernard', correct: false},
-            {text: 'Ilana', correct: false},
-            {text: 'Eko', correct: true},
+            {text: 'Agreeing never to argue again', correct: false},
+            {text: 'Membership in NAFTA', correct: false},
+            {text: 'Agreeing that all countries are brothers to one another', correct: false},
+            {text: 'Membership in the European Union', correct: true},
         ]
     },
     {
-        question: 'What did Hurley create in order to ease the stress and tension of being stranded?',
+        question: 'When was the first version of the European Union created?',
         answers: [
-            {text: 'A short comedy show', correct: false},
-            {text: 'Golf Course', correct: true},
-            {text: 'Yoga Classes', correct: false},
-            {text: 'An area for meditation', correct: false},
+            {text: 'After the Russian Revolution', correct: false},
+            {text: 'After World War II', correct: true},
+            {text: 'After the French Revolution', correct: false},
+            {text: 'After World War I', correct: false},
         ]
     }
 ]
