@@ -74,6 +74,11 @@ The decision for making Quizos for my Mile Stone Project 2 was after making a ma
 
 * They also get the option to upload an image that will be used as a thumbnail image that will display inside the respective category.
 
+## Future Features
+
+* When I learn about databases the user will be able to create their own account as well as log into their own accont. They will also be able to create a quiz and upload it to the category of their choosing in order for other uses to see and use the quiz.
+
+
 # Technologies Used
 
 ### HTML 5
@@ -106,6 +111,12 @@ The decision for making Quizos for my Mile Stone Project 2 was after making a ma
 ### Stack Overflow
 * Whenever I got stuck with a problem I didn't know how to even begin to solve I went here and most of the time found the idea to solve the problem not always a direct solution.
 
+### GitHub and Gitpod
+* Used to make the actual project and deploy the final version of the project.
+
+# Quizizz
+* The Quiz Questions and all their options were taken from this page.
+
 # Testing
 
 * How the flow of the site was and how easy it was to acess the many pages and different quizes.
@@ -118,6 +129,66 @@ The decision for making Quizos for my Mile Stone Project 2 was after making a ma
 * [HTML](https://validator.w3.org/)
 * [CSS](https://jigsaw.w3.org/css-validator/) 
 * [JavaScript](https://beautifytools.com/javascript-validator.php) 
+
+## Browsers 
+* My family and friends helped me test the website in: 
+ 1. Google Chrome
+ 2. Mozilla Firefox
+ 3. Safari
+ 4. Internet Explorer
+ 
+ ## Responsiveness
+ * To ensure the website worked in all devices I used [this](https://responsivedesignchecker.com/) to check the how the website looked in different screens as well as using the Chrome Developer Tools and the help of my friends and family which they all checked on their devices.
+
+ # Deployment
+
+ * I used GitHub and Gitpod to make my project since I was familiar with it.
+
+ * My website is live and running [Here](https://ale-aparicio.github.io/Quizos/quizes/addition-quiz.html).
+
+ * If you're having trouble deploying the website check [this](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) guide.
+
+ # Credits 
+## Content 
+* The project is heavily inspired by [Quizlet](https://quizlet.com/).
+
+* The quiz content was taken from [Quizizz](https://quizizz.com/join).
+
+## Media 
+* All of my images were taken from [Google Images](https://www.google.com/imghp?hl=EN) and so I don't really know where the actual sources of the different images are from.
+
+# Acknowledgements 
+
+* Thanks to my friends and family for helping with some of the ideas and design decisions when I was too indecisive or didn't know what to add into the website.
+
+* Thanks to my mentor Seun Owonikoko for encouraging me to challenge myslef to do the quiz website and for some design decisions and critizism. 
+
+* Thanks to the Slack Community for answering questions and clearing my doubts.
+
+* Last but not least Thanks to [Web Dev Simplified](https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw) for making great guides and tutorials that made making the quiz a much easier and not so daunting task.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
