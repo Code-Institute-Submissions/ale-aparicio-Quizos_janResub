@@ -133,7 +133,16 @@ The Quiz page
 
 The Create Page
 
-![QUiz Page](readme-assets/MS2home.png)
+![QUiz Page](readme-assets/MS2create.png)
+
+## Design Changes: 
+While the developer relied heavily on the wireframes designs in ordered to stay true to the original style and aesthetic of the website some changes were implemented to ensure the best user experience. 
+
+* One of the biggest changes made was to the categories page where a scrolling header was added.
+
+* The create theory was slightly altered The questions no longer have numbers as they will be randomly displayed rather than in a specific order and images will no longer be displayed inside the questions so the ability to add pictures to every question was removed.
+
+
 
 # Credits 
 ## Content 
