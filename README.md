@@ -142,6 +142,37 @@ While the developer relied heavily on the wireframes designs in ordered to stay 
 
 * The create theory was slightly altered The questions no longer have numbers as they will be randomly displayed rather than in a specific order and images will no longer be displayed inside the questions so the ability to add pictures to every question was removed.
 
+* The Login and Sign in were changed from separate pages to small popups. 
+
+# 5. Surface
+
+* Color Scheme 
+    * The colors scheme chosen was selected in order to give the webapp a relaxed and layed back aesthetic.
+
+![Color Palette](readme-assets/MS2color.png)
+
+* Typograhpy 
+    * The Primary font for this project is [Signika Negative](https://fonts.google.com/specimen/Signika+Negative?query=signika+ne).
+    
+    * The Font used for logo is [Carter One](https://fonts.google.com/specimen/Carter+One?query=carter+one)
+
+# 6. Features 
+## Design Features
+Each page of the website contains  a sleek and responsive navigation system:
+* The Navbar contains links to all the main pages so that users have quick access to all of the important pages they will want to explore.
+    * On Mobile the navbar transforms into a mobile friendly "hamburger" menu 
+
+* The Footer just like the header contains contains all the necessary links aswell as some social links.
+ 
+* The Home Page contains links to some of the available categories to get the user starter. It also contains a brief description about the create page as well as a link to the page itself.
+
+* The Categories page contains links to all the categories available in the website aswell as an automatic scroll banner. 
+
+* The Sub Categories page contains links to the actual quizes as well as a create button linked to the create page. 
+
+* The Quizes consist of 10 questions each with 4 different to choose from.
+
+## Features to Implement in the Future 
 
 
 # Credits 
@@ -157,50 +188,8 @@ While the developer relied heavily on the wireframes designs in ordered to stay 
 
 * Thanks to my friends and family for helping with some of the ideas and design decisions when I was too indecisive or didn't know what to add into the website.
 
-* Thanks to my mentor Seun Owonikoko for encouraging me to challenge myslef to do the quiz website and for some design decisions and critizism. 
+* Thanks to my mentor Seun Owonikoko for encouraging me to challenge myself to do the quiz website and for some design decisions and critizism. 
 
 * Thanks to the Slack Community for answering questions and clearing my doubts.
 
 * Last but not least Thanks to [Web Dev Simplified](https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw) for making great guides and tutorials that made making the quiz a much easier and not so daunting task.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
