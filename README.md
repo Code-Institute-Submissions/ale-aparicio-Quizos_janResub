@@ -123,19 +123,19 @@ With the exception of the create page which is separate from the flow of the web
 # 4. Skeleton
 Wireframe mockups were made in [Figma](https://www.figma.com/) to have a visual guide and ensure to provide a good user experience and a satisfying aesthetic.
 
-The Home Page
+The Home Page:
 
 ![Home Page](readme-assets/MS2home.png)
 
-The Categories Page
+The Categories Page:
 
 ![Categories Page](readme-assets/MS2categories.png)
 
-The Quiz page
+The Quiz page:
 
 ![Quiz Page](readme-assets/MS2quiz.png)
 
-The Create Page
+The Create Page:
 
 ![QUiz Page](readme-assets/MS2create.png)
 
