@@ -6,6 +6,8 @@ Heavily Inspired by Quizlet and Quizizz who the developer believes are great sit
 
 The sleek and quick to navigate design allows the user to go from quiz to quiz with minimum effort and easy to find specific quizzes the user may be looking for.
 
+[Live Project Here!](https://ale-aparicio.github.io/Quizos/index.html)
+
 # Table of Contents
 1. [UX](#UX)
     1. [Project Goals](#Project-Goals)
@@ -19,7 +21,7 @@ The sleek and quick to navigate design allows the user to go from quiz to quiz w
     1. [Languages](#Languages)
     2. [Tools](#Tools)
     3. [Libraries](#Libraries)
-6. [Testing](#Testing) ----> [Testing File](TESTING.md)
+6. [Testing](#Testing)
 7. [Deployment](#Deployment)
     2. [Local Copy Creation](#Local-Copy-Creation)
 8. [Credits](Credits)
@@ -185,8 +187,117 @@ Each page of the website contains  a sleek and responsive navigation system:
 # Issues and Bugs
 The developer encountered a number of issues during the development of the application, with the most important ones listed below.
 
-* **Important** Since this project has been resubmitted a lingering problem across all 3 of the developer's Mile Stone Projects has been overlooked and only was only noticed during the third project. The commits on the project have been done in an unorthodox way
+* **Important** Since this project has been resubmitted a lingering problem across all 3 of the developer's Mile Stone Projects has been overlooked and only was only noticed during the third project. The commits on the project have been done in an unorthodox way causing the commits to all display "add" instead of the expected commit messages.
 
+* The login and sign up pop up on the categories window has an issues that causes it to display behind the categories banner, the developer tried fixisng said issue but was unable to fix it as every attempt would deform, or render the banner useless.
+
+[Back to top ⇧](#table-of-contents)
+
+# Technologies Used 
+## Languages 
+* [HTML5](https://en.wikipedia.org/wiki/HTML)
+
+* [CSS](https://en.wikipedia.org/wiki/CSS)
+
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+
+## Tools
+* **Gitpod**
+    * Git Pod was used as the preferred IDE.
+
+* [GitHub](https://github.com/)
+    * Git Hub was used to store the project repository and to deploy the application.
+
+* [Figma](https://www.figma.com/)
+    * Used to create the wireframe during the design phase of the project.
+
+* [Photoshop](https://www.photoshop.com/en)
+    * To edit the website mockup, create the color pallette and edit the favicon.
+
+* [Favicon](https://favicon.io/)
+    * Used to create the icon displayed in the tab
+
+* [Font Awesome](https://fontawesome.com/)
+    * Used to add the icons used throughout the website
+
+## Libraries
+* [Bootstrap](https://getbootstrap.com/)
+    * Used as the css framework used to implement the responsiveness of the site.
+
+* [Google Fonts](https://fonts.google.com/)
+    * Google fonts was used to import the "Piedra" and the "Pirata" fonts used throughout the website.
+
+[Back to top ⇧](#table-of-contents)
+
+# Testing 
+[Live Project Here!](https://ale-aparicio.github.io/Quizos/index.html)
+
+[View Repository](https://github.com/ale-aparicio/Quizos)
+
+## Testing User Stories 
+User theories were tested to ensure the expectations and needs of the users are met, this is the results of that test:
+
+### General User
+As a general user, I want to quickly access quizzes, and have no problem taking said quizzes:
+
+* Quizzes have been put into easy to access categories so that the user has an easier time looking for specific types of quizzes depending on their preferences.
+
+* Quizzes display wrong and right answer as well as show the overall grade to show directly show the user their progress.
+
+## Manual Testing
+Manual Testing of all elements was conducted by the developer, and the developer's friends and family to ensure all elements and features were working up to the user's standard.
+### Common Element Testing 
+Home Page:
+* Checked all elements in the header and footer making sure all of them are linked to the appropriate windows.
+
+* Checked all of the category links were linked to their respective categories.
+
+* Checked that the create button directs the user to the create page.
+
+Categories Page:
+* Checked all of the categories are linked to their assigned sub-sections.
+
+* Made sure all of the banner images are linked to their appropriate sub-sections.
+
+Sub-Categories:
+* Checked that each of the quizzes direct to the correct quiz with it's appropriate content. 
+
+* The create button takes you to the create page.
+
+Quiz Page:
+* Ensured that the quizzes display the correct information. 
+
+* Ensured that in all questions the right and wrong answered were displayed after the user made their choice.
+
+* Checked that the results are displayed at the end of every test.
+
+## Automated Testing
+
+* The Html was run through the [W3C Validator](https://validator.w3.org/) and all errors marked were solved
+
+* The CSS was tested through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) and all errors marked were solved.
+
+* The JS was tested using [Extends Class](https://extendsclass.com/javascript-fiddle.html) all errors displayed were 
+
+## Browser Validator
+
+* The Website was tested on the following browers and worked flawlessly:
+
+Safari
+
+Mozilla Firefox
+
+Google Chrome
+
+Internet Explorer
+
+## User Testing
+
+* Friends and family members all reviewed the website and pointed out spelling mistakes, bugs, and errors that they experiencing.
+
+* All errors and complaints have been solved.
+
+[Back to top ⇧](#table-of-contents)
 # Credits 
 ## Content 
 * The project is heavily inspired by [Quizlet](https://quizlet.com/).
