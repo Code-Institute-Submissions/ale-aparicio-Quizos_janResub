@@ -156,7 +156,7 @@ While the developer relied heavily on the wireframes designs in ordered to stay 
     
     * The Font used for logo is [Carter One](https://fonts.google.com/specimen/Carter+One?query=carter+one)
 
-# 6. Features 
+# Features 
 ## Design Features
 Each page of the website contains  a sleek and responsive navigation system:
 * The Navbar contains links to all the main pages so that users have quick access to all of the important pages they will want to explore.
@@ -173,7 +173,19 @@ Each page of the website contains  a sleek and responsive navigation system:
 * The Quizes consist of 10 questions each with 4 different to choose from.
 
 ## Features to Implement in the Future 
+* **Data Base**
+    * Implementing the use of a Data Base could take the user interactivity to another level by allowing our users to create an accound and giving them access to create their own theories.
 
+    * As mentioned previosly users will be allowed to create their own quizes.
+
+    * Another feature that could be implemented is the ability for users to favorite quizes and having the ability to acess said quizes directly from their profile making it more accessible.
+
+[Back to top ⇧](#table-of-contents)
+
+# Issues and Bugs
+The developer encountered a number of issues during the development of the application, with the most important ones listed below.
+
+* **Important** Since this project has been resubmitted a lingering problem across all 3 of the developer's Mile Stone Projects has been overlooked and only was only noticed during the third project. The commits on the project have been done in an unorthodox way
 
 # Credits 
 ## Content 
