@@ -124,9 +124,11 @@ With the exception of the create page which is separate from the flow of the web
 Wireframe mockups were made in [Figma](https://www.figma.com/) to have a visual guide and ensure to provide a good user experience and a satisfying aesthetic.
 
 The Home Page
+
 ![Home Page](readme-assets/MS2home.png)
 
 The Categories Page
+
 ![Categories Page](readme-assets/MS2categories.png)
 
 The Quiz page
