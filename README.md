@@ -24,7 +24,7 @@ The sleek and quick to navigate design allows the user to go from quiz to quiz w
 6. [Testing](#Testing)
 7. [Deployment](#Deployment)
     2. [Local Copy Creation](#Local-Copy-Creation)
-8. [Credits](Credits)
+8. [Credits](#Credits)
 9. [Acknowledgements](#Acknowledgements)
 
 # UX
