@@ -29,7 +29,7 @@ The sleek and quick to navigate design allows the user to go from quiz to quiz w
 
 # UX
 ## Project Goals
-The Primary goal for Quizos was to provide a web-based aplication with an easy to navigate and easy to use design that was interactive to the user while utilizing the JavaScript Language to achieve this.
+The Primary goal for Quizos was to provide a web-based application with an easy to navigate and easy to use design that was interactive to the user while utilizing the JavaScript Language to achieve this.
 
 This is the Second of Four Mile Stone Projects the developer must complete during their Full Stack Development Program provided by The Code Institute.
 
@@ -47,28 +47,28 @@ The user is looking for:
 The Developer is looking to:
 * Create an interactive quiz website for people looking to test their knowledge on a certain topic or just for a quick dose of entertainment.
 
-* Demostrate their skill and knowledge of the usage of JavaScript.
+* Demonstrate their skill and knowledge of the usage of JavaScript.
 
-* Deploy a project they are hapy and satisfied with.
+* Deploy a project they are happy and satisfied with.
 
 # User Stories
 As a General User, I want to :
-* Be able to easy access quizzes.
+* Be able to easily access quizzes.
 
 * Be able to know what questions I got wrong and what my overall score for the quiz is.
 
 * Test my knowledge on a variety of topics.
 
 # Development Planes 
-In order to design and create a good web-based application , the developer distinguished the required functionality of the site and how it would answer the users stories and demands. 
+In order to design and create a good web-based application, the developer distinguished the required functionality of the site and how it would answer the user's stories and demands. 
 
 To accomplish this the developer went through a Development process:
 
 ## 1. Strategy 
-They way the developer approached the design of this project was by addressing and ackowledging  the target audience:
+The way the developer approached the design of this project was by addressing and acknowledging  the target audience:
 * Demographic: 
     * Students Looking for a study tool
-    * People bored and just looking for entertainment
+    * Bored people that are just looking for entertainment
     * Fans of specific genres looking to test their knowledge
 
 The website needs to enable the user to:
@@ -96,15 +96,15 @@ A scope is utilized to identify what steps need to be taken in order to align th
         * Music 
         * Art
 * Functionality Requirements
-    * Quizes 
-        * Quizes display the correct question
-        * Quizes display 4 possible answer options 
-        * Quizes display the correct answer
-        * Quizes display the wrong answers
-        * Quizes Display the total grade (0-100%)
+    * Quizzes 
+        * Quizzes display the correct question
+        * Quizzes display 4 possible answer options 
+        * Quizzes display the correct answer
+        * Quizzes display the wrong answers
+        * Quizzes Display the total grade (0-100%)
 
 # 3. Structure
-The architecture of the webiste was design to ensure the user can navigate through the quizes and categories in a flawless and quick manner. 
+The architecture of the website was design to ensure the user can navigate through the quizzes and categories in a flawless and quick manner. 
 
 The website is divided in 4 main sections:
 1. The Home Page
@@ -112,8 +112,8 @@ The website is divided in 4 main sections:
 2. Categories Section
     * Display all the available categories
 3. The Category
-    * Displays the available quizes
-4. Quizes
+    * Displays the available quizzes
+4. Quizzes
     * Displays the questions and answer options
 
 With the exception of the create page which is separate from the flow of the website since it isn't a currently integrated feature.
@@ -162,11 +162,11 @@ While the developer relied heavily on the wireframes designs in ordered to stay 
 
 # Features 
 ## Design Features
-Each page of the website contains  a sleek and responsive navigation system:
+Each page of the website contains a sleek and responsive navigation system:
 * The Navbar contains links to all the main pages so that users have quick access to all of the important pages they will want to explore.
     * On Mobile the navbar transforms into a mobile friendly "hamburger" menu 
 
-* The Footer just like the header contains contains all the necessary links aswell as some social links.
+* The Footer just like the header contains all the necessary links aswell as some social links.
  
 * The Home Page contains links to some of the available categories to get the user starter. It also contains a brief description about the create page as well as a link to the page itself.
 
@@ -174,15 +174,15 @@ Each page of the website contains  a sleek and responsive navigation system:
 
 * The Sub Categories page contains links to the actual quizes as well as a create button linked to the create page. 
 
-* The Quizes consist of 10 questions each with 4 different to choose from.
+* The Quizzes consist of 10 questions each with 4 different to choose from.
 
 ## Features to Implement in the Future 
 * **Data Base**
-    * Implementing the use of a Data Base could take the user interactivity to another level by allowing our users to create an accound and giving them access to create their own theories.
+    * Implementing the use of a Data Base could take the user interactivity to another level by allowing our users to create an account and giving them access to create their own theories.
 
-    * As mentioned previosly users will be allowed to create their own quizes.
+    * As mentioned previously users will be allowed to create their own quizes.
 
-    * Another feature that could be implemented is the ability for users to favorite quizes and having the ability to acess said quizes directly from their profile making it more accessible.
+    * Another feature that could be implemented is the ability for users to favorite quizzes and having the ability to access said quizzes directly from their profile making it more accessible.
 
 [Back to top ⇧](#table-of-contents)
 
@@ -191,7 +191,7 @@ The developer encountered a number of issues during the development of the appli
 
 * **Important** Since this project has been resubmitted a lingering problem across all 3 of the developer's Mile Stone Projects has been overlooked and only was only noticed during the third project. The commits on the project have been done in an unorthodox way causing the commits to all display "add" instead of the expected commit messages.
 
-* The login and sign up pop up on the categories window has an issues that causes it to display behind the categories banner, the developer tried fixisng said issue but was unable to fix it as every attempt would deform, or render the banner useless.
+* The login and sign up pop up on the categories window has an issue that causes it to display behind the categories banner, the developer tried fixing said issue but was unable to fix it as every attempt would deform, or render the banner useless.
 
 [Back to top ⇧](#table-of-contents)
 
@@ -309,11 +309,11 @@ Internet Explorer
 ## Media 
 * All of my images were taken from [Google Images](https://www.google.com/imghp?hl=EN) and so I don't really know where the actual sources of the different images are from.
 
-# Acknowledgements 
+# Acknowledgments 
 
 * Thanks to my friends and family for helping with some of the ideas and design decisions when I was too indecisive or didn't know what to add into the website.
 
-* Thanks to my mentor Seun Owonikoko for encouraging me to challenge myself to do the quiz website and for some design decisions and critizism. 
+* Thanks to my mentor Seun Owonikoko for encouraging me to challenge myself to do the quiz website and for some design decisions and criticism. 
 
 * Thanks to the Slack Community for answering questions and clearing my doubts.
 
