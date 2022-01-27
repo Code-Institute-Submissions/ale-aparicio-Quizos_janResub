@@ -23,7 +23,7 @@ The sleek and quick to navigate design allows the user to go from quiz to quiz w
     3. [Libraries](#Libraries)
 6. [Testing](#Testing)
 7. [Deployment](#Deployment)
-    2. [Local Copy Creation](#Local-Copy-Creation)
+    1. [Local Copy Creation](#Local-Copy-Creation)
 8. [Credits](#Credits)
 9. [Acknowledgements](#Acknowledgements)
 
@@ -116,10 +116,6 @@ The website is divided in 4 main sections:
 4. Quizzes
     * Displays the questions and answer options
 
-With the exception of the create page which is separate from the flow of the website since it isn't a currently integrated feature.
-1. Create Page
-    * Implemented in the future for users to create their own quizes.
-
 # 4. Skeleton
 Wireframe mockups were made in [Figma](https://www.figma.com/) to have a visual guide and ensure to provide a good user experience and a satisfying aesthetic.
 
@@ -135,18 +131,14 @@ The Quiz page:
 
 ![Quiz Page](readme-assets/MS2quiz.png)
 
-The Create Page:
-
-![QUiz Page](readme-assets/MS2create.png)
-
 ## Design Changes: 
 While the developer relied heavily on the wireframes designs in ordered to stay true to the original style and aesthetic of the website some changes were implemented to ensure the best user experience. 
 
 * One of the biggest changes made was to the categories page where a scrolling header was added.
 
-* The create theory was slightly altered The questions no longer have numbers as they will be randomly displayed rather than in a specific order and images will no longer be displayed inside the questions so the ability to add pictures to every question was removed.
+* Log in and Sign Up pages have been removed as they serve no current purpose at the time of development due to a lack of knowledge on databases to be able to store user information 
 
-* The Login and Sign in were changed from separate pages to small popups. 
+* Create Page has also been removed for the same reason as the log in and the sign up page as it serves no purpose in the current state of the website.
 
 # 5. Surface
 
@@ -189,7 +181,7 @@ Each page of the website contains a sleek and responsive navigation system:
 # Issues and Bugs
 The developer encountered a number of issues during the development of the application, with the most important ones listed below.
 
-* **Important** Since this project has been resubmitted a lingering problem across all 3 of the developer's Mile Stone Projects has been overlooked and only was only noticed during the third project. The commits on the project have been done in an unorthodox way causing the commits to all display "add" instead of the expected commit messages.
+* **Important** Since this project has been resubmitted a lingering problem across all 3 of the developer's Mile Stone Projects has been overlooked and only was only noticed during the third project. The commits on the project have been done in an unorthodox way causing the commits to all display "add" instead of the expected commit messages. The developer would use the side console (**Source Control**) in order to make commits and was doing so under the assumption that it was only used to save the work and not knowing what it really did. What it really does is a quick way to commit progress without the need to use the console.
 
 * The login and sign up pop up on the categories window has an issue that causes it to display behind the categories banner, the developer tried fixing said issue but was unable to fix it as every attempt would deform, or render the banner useless.
 
@@ -300,6 +292,68 @@ Internet Explorer
 * All errors and complaints have been solved.
 
 [Back to top ⇧](#table-of-contents)
+
+# Deployment 
+The Deployment was done using [GitHub Pages](https://pages.github.com).
+
+For a tutorial on how to deploy your own site [Click Here](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
+s
+## Local-Copy-Creation
+
+A Local Clone of the repository can be made in two ways:
+
+- Forking the Repository 
+
+- Creating a clone
+
+### Forking the Repository:
+
+- By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps:
+
+- Log into GitHub or create an account.
+
+- Locate the GitHub Repository.
+
+- At the top of the repository, on the right side of the page, select "Fork".
+
+- You should now have a copy of the original repository in your GitHub account.
+
+### Creating a Clone
+
+- How to run this project locally:
+
+    -  Install the GitPod Browser Extension for Chrome.
+
+    - After installation, restart the browser.
+
+    - Log into GitHub or create an account.
+
+    - Locate the GitHub Repository.
+
+    - Click the green "GitPod" button in the top right corner of the repository. This will trigger a new gitPod workspace to be created from the code in github where you can work locally.
+
+###  How to run this project within a local IDE, such as VSCode:
+
+- Log into GitHub or create an account.
+
+- Locate the GitHub Repository.
+
+- Under the repository name, click "Clone or download".
+
+- In the Clone with HTTPs section, copy the clone URL for the repository.
+
+- In your local IDE open the terminal.
+
+- Change the current working directory to the location where you want the cloned directory to be made.
+
+- Type 'git clone', and then paste the URL you copied in Step 3.
+
+- git clone https://github.com/USERNAME/REPOSITORY
+
+- Press Enter. Your local clone will be created.
+
+[Back to top ⇧](#table-of-contents)
+
 # Credits 
 ## Content 
 * The project is heavily inspired by [Quizlet](https://quizlet.com/).
@@ -318,3 +372,5 @@ Internet Explorer
 * Thanks to the Slack Community for answering questions and clearing my doubts.
 
 * Last but not least Thanks to [Web Dev Simplified](https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw) for making great guides and tutorials that made making the quiz a much easier and not so daunting task.
+
+[Back to top ⇧](#table-of-contents)
