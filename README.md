@@ -297,7 +297,7 @@ Internet Explorer
 The Deployment was done using [GitHub Pages](https://pages.github.com).
 
 For a tutorial on how to deploy your own site [Click Here](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
-s
+
 ## Local-Copy-Creation
 
 A Local Clone of the repository can be made in two ways:
